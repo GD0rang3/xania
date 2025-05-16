@@ -1,176 +1,123 @@
-unlockedOnLand: [
-  core-frost
+localizedName: Asthosus
+description: A deserted planet, filled with dangers but also possibilities. Good luck!
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 75c5e0
+    color2: 75c5e0
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //ferrinite
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 5
+    radius: 1.22
+    seed: 94
+    color1: b7deeb
+    color2: 6c97a6
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //sand
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: 6c97a6
+    color2: b7deeb
+    octaves: 5.1
+    persistence: 0.8
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: 75c5e0
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: 6c97a6
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: b7deeb
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
 ]
 generator: {
-  berylChance: 0.45
-  iceChance: 0.15
-  ferricChance: 0.55
-  stoneChance: 0.001
-  radMin: 25
-  radMax: 25
-  berylliumScale: 4
-  copperScale: 0.6
-  scale: 25
-  mag: 0.5
-  thresh: 0.9
-  fscl: 30
-  fper: 0.4
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
 }
-//sector count - larger numbers mean exponentially more sectors, may crash above 4
-sectorSize: 3.1
-//terrain generation seed the planet uses for its sectors
-sectorSeed: -4
-//sector to start on - probably make this a preset sector
-startSector: 10
-//parent to orbit around and follow
+orbitRadius: 25
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 1.2
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 6c97a6
+iconColor: 6c97a6
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-frost
 parent: sun
 solarSystem: sun
-//icon colour
-iconColor: 63ad7a
-//radius from the planet's "surface" that the atmosphere blur begins
-atmosphereRadIn: 0
-//radius where it fades away - this can have visual issues if above 0.25
-atmosphereRadOut: 0.35
-//colour of the atmosphere
-atmosphereColor: 3898a1
-//orbit radius, measured in units i do not know
-orbitRadius: 38
-//angle of the starting position of the orbit, so that all planets are not in the same line 
-orbitOffset: 140
-//time taken to complete one full orbit, in seconds
-orbitTime: 12000
-//time in ticks that it takes for one day to pass on the planet
-rotateTime: 5000
-//add tidalLock: true and updateLighting: false to make a planet's daylight not move
-//whether this planet can be selected, ever
-accessible: true
-//whether to allow launching to numbered sectors - set to false for erekir sector behaviour
-allowLaunchToNumbered: false
-//planet environmental factors
-defaultEnv: 193
-//content unlocked when landing on this planet
-unlockedOnLand: [
-  core-frost
-]
-//planet icon 
-icon: terrain
-//various rules
-allowLaunchSchematics: false
-allowLaunchLoadout: false
-allowWaveSimulation: false
-allowSectorInvasion: false
-clearSectorOnLose: true
-prebuildBase: true
-allowWaves: false
-allowLaunchToNumbered: false
-enemyBuildSpeedMultiplier: 1
-//default core to launch with
-defaultCore: core-frost
-//visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
-//use objects {} to make a single mesh, and the below format to create multiple
-mesh: [
-  {
-    type: NoiseMesh
-    seed: -5
-    divisions: 5
-    radius: 0.943
-    color1: 7fbddb
-    color2: 7fbddb
-    octaves: 1
-    persistence: 0.0001
-    scale: 0.0001
-    mag: 1
-    coct: 1
-    cper: 1
-    cscl: 1
-    cthresh: 4
-  }
-  {
-    type: NoiseMesh
-    seed: -5
-    divisions: 5
-    radius: 1.019
-    color1: 5671a8
-    color2: 5671a8
-    octaves: 4.2
-    persistence: 0.9
-    scale: 0.7
-    mag: 0.2
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    seed: -5
-    divisions: 6
-    radius: 1.0088
-    color1: b0efff
-    color2: 5f77ed
-    octaves: 4.2
-    persistence: 0.9
-    scale: 0.7
-    mag: 0.3
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    //a two colour mesh type
-    type: NoiseMesh
-    //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
-    divisions: 6
-    //seed - different seeds mean the details of the mesh generate differently
-    seed: -5
-    //mesh size - 1 is serpulo
-    radius: 0.998
-    //first colour to use 
-    color1: adeaf7
-    //second
-    color2: 7fcef5
-    //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
-    octaves: 4.2
-    persistence: 0.9
-    scale: 0.7
-    mag: 0.4
-    //these control how the two colours behave on the mesh
-    coct: 1
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  
-]
-//mesh to use for drawing the clouds, essentially just a second mesh
-cloudMesh: [
-  {
-    type: HexSkyMesh
-    //rotate speed 
-    speed: 3
-    seed: 7
-    divisions: 6
-    //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
-    radius: 0.1
-    //cloud colour
-    color: c2ebff
-    //more explodey values, they're even more sensitive here
-    octaves: 3
-    persistence: 0.3
-    scl: 1
-    thresh: 0.43
-  }
-  {
-    type: HexSkyMesh
-    speed: -2
-    divisions: 5
-    radius: 0.0372
-    color: dcedf5
-    octaves: 0.4
-    persistence: 0.2
-    scl: 0.2
-    thresh: 0.4
-  }
-]
-//research
+launchCandidates: []
