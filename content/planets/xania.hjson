@@ -26,7 +26,8 @@ sectorSeed: -4
 //sector to start on - probably make this a preset sector
 startSector: 10
 //parent to orbit around and follow
-parent: 0a
+parent: sun
+solarSystem: sun
 //icon colour
 iconColor: 63ad7a
 //radius from the planet's "surface" that the atmosphere blur begins
