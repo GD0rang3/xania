@@ -1,7 +1,7 @@
 name: xania
 displayName: Xania
 description: "
-  '''Adds a new planet, Xania, and a bunch of content along it! '''"
+  Adds a new planet, Xania, and a bunch of content along it! "
   author: "Ion+"
-  minGameVer: 146
+  minGameVersion: 146
   version : "v0.01"
