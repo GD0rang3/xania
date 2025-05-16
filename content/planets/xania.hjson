@@ -1,4 +1,6 @@
-unlockedOnLand: core-frost
+unlockedOnLand: {
+  core-frost
+  }
 generator: {
   berylChance: 0.45
   iceChance: 0.15
