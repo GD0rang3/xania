@@ -40,9 +40,9 @@ weapons: [
       buildingDamageMultiplier: 0.01
       speed: 10
       lifetime: 90
-      damage: 12
+      damage: 20
       splashDamage: 20
-      splashDamageRadius: 5
+      splashDamageRadius: 30
       width: 9
       height: 20
       pierceBuilding: false
