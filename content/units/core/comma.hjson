@@ -26,9 +26,9 @@ weapons: [
         name: Comma Shot
     x: 0
     y: 0
-    reload: 120
+    reload: 40
     mirror: false
-    rotate: true
+    rotate: false
     ejectEffect: none
     shootSound: plasmaboom
     bullet: {
