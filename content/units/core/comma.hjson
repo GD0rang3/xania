@@ -1,13 +1,13 @@
 type: flying
 hovering: true
 groundLayer: 90
-name: Cadi Defender
+name: Comma
 description: Defends the Frost core. Builds structures and mines ores.
 health: 135
 armor: 1
 mineFloor: true
 mineWalls: true
-speed: 2
+speed: 4
 hitSize: 6
 isEnemy: false
 mineSpeed: 6
@@ -18,7 +18,7 @@ itemCapacity: 25
 alwaysUnlocked: true
 outlineColor: 040b1c
 
-      trailChance: 0.2
+      trailChance: -1
       trailEffect: dynamicSpikes
       buildingDamageMultiplier: 0.01
 weapons: [
@@ -46,7 +46,18 @@ weapons: [
       trailChance: 0.3
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 140
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: ebc334
+          colorTo: 827441
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
       buildingDamageMultiplier: 0.01
       
       homingPower: 0.1
