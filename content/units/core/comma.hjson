@@ -26,11 +26,11 @@ weapons: [
         name: Comma Shot
     x: 0
     y: 0
-    reload: 20
+    reload: 8
     mirror: false
     rotate: true
     ejectEffect: none
-    shootSound: shoot
+    shootSound: plasmaboom
     bullet: {
       type: BasicBulletType
       frontColor: ceecf5
@@ -38,17 +38,17 @@ weapons: [
       lightColor: e4f4f7
       hitColor: 79d4e8
       buildingDamageMultiplier: 0.01
-      speed: 10
+      speed: 6
       lifetime: 90
-      damage: 6
-      splashDamage: 6
+      damage: 3
+      splashDamage: 3
       splashDamageRadius: 3
       width: 9
       height: 13
       pierceBuilding: false
       pierce: false
-      trailChance: -1
-      trailEffect: dynamicSpikes
+      trailChance: 0.5
+      trailEffect: vapor
       shootEffect: shootSmall
       smokeEffect: {
         type: ParticleEffect
