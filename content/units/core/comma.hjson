@@ -7,18 +7,18 @@ health: 135
 armor: 1
 mineFloor: true
 mineWalls: true
-speed: 7
+speed: 2
 hitSize: 6
 isEnemy: false
 mineSpeed: 6
-mineTier: 1
+mineTier: 2
 buildSpeed: 1
 drag: 0.5
 itemCapacity: 25
 alwaysUnlocked: true
 outlineColor: 040b1c
 
-      trailChance: -1
+      trailChance: 0.2
       trailEffect: dynamicSpikes
       buildingDamageMultiplier: 0.01
 weapons: [
@@ -26,7 +26,7 @@ weapons: [
         name: Comma Shot
     x: 0
     y: 0
-    reload: 40
+    reload: 20
     mirror: false
     rotate: true
     ejectEffect: none
@@ -34,16 +34,16 @@ weapons: [
     bullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.01
-      speed: 3
+      speed: 5
       lifetime: 90
-      damage: 8
-      splashDamage: 8
-      splashDamageRadius: 12
+      damage: 6
+      splashDamage: 6
+      splashDamageRadius: 3
       width: 9
-      height: 25
+      height: 13
       pierceBuilding: false
       pierce: false
-      trailChance: -1
+      trailChance: 0.3
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
