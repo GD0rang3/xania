@@ -34,7 +34,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.01
-      speed: 5
+      speed: 10
       lifetime: 90
       damage: 6
       splashDamage: 6
@@ -43,18 +43,18 @@ weapons: [
       height: 13
       pierceBuilding: false
       pierce: false
-      trailChance: 0.3
+      trailChance: -1
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
       smokeEffect: {
         type: ParticleEffect
           particles: 25
-          length: 140
+          length: 100
           lifetime: 36
           interp: circleOut
           cone: 3
-          colorFrom: ebc334
-          colorTo: 827441
+          colorFrom: c7f3ff
+          colorTo: 184b59
           sizeFrom: 4
           sizeTo: 0.6
         }
