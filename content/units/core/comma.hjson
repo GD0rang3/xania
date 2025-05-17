@@ -49,6 +49,7 @@ weapons: [
       pierce: false
       trailChance: 0.5
       trailEffect: vapor
+      trailColor: b2d2d9
       shootEffect: shootSmall
       smokeEffect: {
         type: ParticleEffect
