@@ -26,7 +26,7 @@ weapons: [
         name: Comma Shot
     x: 0
     y: 0
-    reload: 8
+    reload: 120
     mirror: false
     rotate: true
     ejectEffect: none
@@ -38,19 +38,19 @@ weapons: [
       lightColor: e4f4f7
       hitColor: 79d4e8
       buildingDamageMultiplier: 0.01
-      speed: 6
+      speed: 10
       lifetime: 90
-      damage: 3
-      splashDamage: 3
-      splashDamageRadius: 3
+      damage: 12
+      splashDamage: 20
+      splashDamageRadius: 5
       width: 9
-      height: 13
+      height: 20
       pierceBuilding: false
       pierce: false
       trailChance: 0.5
       trailEffect: vapor
       trailColor: b2d2d9
-      shootEffect: shootSmall
+      shootEffect: none
       smokeEffect: {
         type: ParticleEffect
           particles: 25
