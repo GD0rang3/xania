@@ -33,6 +33,10 @@ weapons: [
     shootSound: shoot
     bullet: {
       type: BasicBulletType
+      frontColor: ceecf5
+      backColor: 72a7b5
+      lightColor: e4f4f7
+      hitColor: 79d4e8
       buildingDamageMultiplier: 0.01
       speed: 10
       lifetime: 90
