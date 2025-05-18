@@ -1,5 +1,6 @@
 type: flying
 hovering: true
+rotateSpeed: 4
 groundLayer: 90
 name: Comma
 description: Defends the Frost core. Builds structures and mines ores.
@@ -7,8 +8,6 @@ health: 135
 armor: 1
 mineFloor: true
 mineWalls: true
-trailColor: 84d0d9
-trailLength: 12
 speed: 4
 hitSize: 6
 isEnemy: false
@@ -23,6 +22,14 @@ outlineColor: 040b1c
       trailChance: -1
       trailEffect: dynamicSpikes
       buildingDamageMultiplier: 0.01
+engines:[
+{
+y: -5
+x: 0
+radius: 3
+rotation: -90
+}
+]
 weapons: [
   {
         name: Comma Shot
