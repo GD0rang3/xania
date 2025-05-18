@@ -1,0 +1,7 @@
+name: Oganesson
+description: "Very dense metal used in advanced building."
+hardness: 2
+cost: 1
+color: 268c3f
+research: curium
+hiddenOnPlanets: [serpulo, erekir]
