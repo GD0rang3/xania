@@ -1,0 +1,19 @@
+type: DuctBridge
+name: Pressure Bridge
+description: Acts as a bridge for crossing obstacles
+health: 50
+size: 1
+requirements: [
+  item-curium/5
+] 
+category: distribution
+research: {
+    parent: pressure-duct
+    requirements: [
+        item-curium/40
+    ]
+}
+squareSprite: false
+range: 4
+speed: 3
+researchCostMultiplier: 0.5
