@@ -1,0 +1,19 @@
+type: Router
+name: Pressure Router
+description: Distributes item inputs into three directions using pressure
+size: 1
+speed: 6
+health: 110
+itemCapacity: 3
+requirements: [
+  item-curium/3
+]
+squareSprite: false
+category: distribution
+research: {
+    parent: pressure-duct
+    requirements: [
+        item-curium/50
+    ]
+}
+researchCostMultiplier: 0.5

@@ -1,0 +1,80 @@
+type: flying
+hovering: true
+rotateSpeed: 25
+groundLayer: 90
+name: Comma
+description: Defends the Frost core. Builds structures and mines ores.
+health: 135
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 4
+hitSize: 6
+isEnemy: false
+mineSpeed: 6
+mineTier: 2
+buildSpeed: 1
+drag: 0.5
+itemCapacity: 25
+alwaysUnlocked: true
+outlineColor: 040b1c
+
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+engines:[
+{
+x: 0
+y: -10
+radius: 6
+rotation: -90
+}
+]
+weapons: [
+  {
+        name: Comma Shot
+    x: 0
+    y: 0
+    reload: 40
+    mirror: false
+    rotate: false
+    ejectEffect: none
+    shootSound: plasmaboom
+    bullet: {
+      type: BasicBulletType
+      frontColor: ceecf5
+      backColor: 72a7b5
+      lightColor: e4f4f7
+      hitColor: 79d4e8
+      buildingDamageMultiplier: 0.01
+      speed: 10
+      lifetime: 90
+      damage: 20
+      splashDamage: 20
+      splashDamageRadius: 30
+      width: 9
+      height: 20
+      pierceBuilding: false
+      pierce: false
+      trailChance: 0.5
+      trailEffect: vapor
+      trailColor: b2d2d9
+      shootEffect: none
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 25
+          length: 100
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: c7f3ff
+          colorTo: 184b59
+          sizeFrom: 4
+          sizeTo: 0.6
+        }
+      buildingDamageMultiplier: 0.01
+      
+      homingPower: 0.1
+}
+}
+]

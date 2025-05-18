@@ -1,0 +1,22 @@
+type: Drill
+name: Pressurized Drill
+description: Uses strong pressure to mine materials from the ground.
+size: 2
+category: production
+hasLiquids: false
+research: {
+  parent: core-frost
+requirements:[
+item-curium/12
+]
+    }
+hardnessDrillMultiplier: 55
+hasPower: false
+tier: 2
+shake: 0.5
+itemCapacity: 25
+researchCostMultiplier: 0.5
+requirements: [
+item-curium/20
+]
+squareSprite: false

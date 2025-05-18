@@ -1,0 +1,9 @@
+
+localizedName: sec1,
+description: "first sector. big problem",
+captureWave: 30,
+planet: xania,
+sector:0,
+research": core-frost,
+alwaysUnlocked: true, 
+difficulty: 3

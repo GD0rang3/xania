@@ -1,0 +1,18 @@
+type: Junction
+name: Pressure Junction
+description: Allows for crossing two ducts. 
+health: 65
+size: 1
+speed: 22
+requirements: [
+  item-curium/3
+]
+squareSprite: false
+category: distribution
+research: {
+    parent: pressure-duct
+    requirements: [
+        item-curium/50
+    ]
+}
+researchCostMultiplier: 0.5

@@ -1,0 +1,4 @@
+type: OreBlock
+name: Curium
+itemDrop: item-curium
+variants: 3
