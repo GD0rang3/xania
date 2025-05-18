@@ -1,6 +1,6 @@
 type: flying
 hovering: true
-rotateSpeed: 4
+rotateSpeed: 25
 groundLayer: 90
 name: Comma
 description: Defends the Frost core. Builds structures and mines ores.
@@ -24,9 +24,9 @@ outlineColor: 040b1c
       buildingDamageMultiplier: 0.01
 engines:[
 {
-y: -5
 x: 0
-radius: 3
+y: -10
+radius: 6
 rotation: -90
 }
 ]
