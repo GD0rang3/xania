@@ -7,7 +7,7 @@ hasLiquids: false
 research: {
   parent: core-frost
 requirements:[
-curium/12
+item-curium/12
 ]
     }
 hardnessDrillMultiplier: 55
@@ -17,6 +17,6 @@ shake: 0.5
 itemCapacity: 25
 researchCostMultiplier: 0.5
 requirements: [
-curium/20
+item-curium/20
 ]
 squareSprite: false
