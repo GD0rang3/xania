@@ -1,0 +1,18 @@
+type: Router
+name: Pressure Distributor 
+description: A larger Router. Distributes input items from ducts to seven directions equally. 
+size: 2
+health: 60
+itemCapacity: 8
+requirements: [
+    item-curium/5
+]
+squareSprite: false
+category: distribution
+research: {
+    parent: pressure-router
+    requirements: [
+        item-curium/80
+    ]
+}
+researchCostMultiplier: 0.5
