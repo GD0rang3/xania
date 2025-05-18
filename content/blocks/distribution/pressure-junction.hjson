@@ -1,0 +1,18 @@
+type: Junction
+name: Pressure Junction
+description: Lets 2 ducts pass through each other without changing the flow of items. 
+health: 65
+size: 1
+speed: 4
+requirements: [
+  item-curium/3
+]
+squareSprite: false
+category: distribution
+research: {
+    parent: pressure-duct
+    requirements: [
+        item-curium/50
+    ]
+}
+researchCostMultiplier: 0.5
