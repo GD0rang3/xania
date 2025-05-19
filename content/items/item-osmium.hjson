@@ -1,0 +1,6 @@
+name: Osmium
+description: "Extremely heavy material from Xania's core which got resurfaced."
+cost: 1
+color: 268c3f
+research: curium
+hiddenOnPlanets: [serpulo, erekir]
