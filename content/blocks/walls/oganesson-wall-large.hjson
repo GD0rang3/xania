@@ -4,11 +4,11 @@ name: Large Oganesson Wall
 health: 1760
 size: 2
 research: {
-    parent: curium-wall-large
+    parent: oganesson-wall
     requirements: [
-        item-oganesson/80
+        item-oganesson/230
     ]
 }
 requirements: [
-    item-curium/20
+    item-curium/24
 ]
