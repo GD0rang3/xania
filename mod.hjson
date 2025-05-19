@@ -1,7 +1,9 @@
 name: xania
 displayName: Xania
 subtitle: greatest mod ever, hehe
-description: "Adds a new planet, Xania, and a bunch of content along it! "
+description: "[yellow] Welcome to [blue] Xania, [white] a white, cold and depressing planet far away from the sun.
+Many times this planet was attempted to conquer but [gray] the creatures on there are on a different level...
+[white] Will [red] you [white] be able to conquer the freezing cold?"
   author: "Ion+"
   minGameVersion: 146
   version : "v0.45"
