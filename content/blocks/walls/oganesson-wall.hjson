@@ -1,0 +1,14 @@
+type: wall
+category: defense
+name: Oganesson Wall
+health: 440
+size: 1
+research: {
+    parent: curium-wall-large
+    requirements: [
+        item-oganesson/80
+    ]
+}
+requirements: [
+    item-oganesson/6
+]
