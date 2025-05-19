@@ -1,0 +1,4 @@
+type: OreBlock
+name: Oganesson
+itemDrop: item-oganesson
+variants: 3
