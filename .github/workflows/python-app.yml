@@ -40,3 +40,5 @@ jobs:
         name: phj-json-output
         path: |
           **/*.json
+    - name: Find JSON Debug
+      run: find . -name "*.json"
