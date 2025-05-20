@@ -31,7 +31,7 @@ name: Icicle
 description: Fires alternating, powerful rounds at enemies, piercing them. Specialized at annihilating swarms. Less efficient against single targets.
 size: 2
 squareSprite: false
-reload: 6
+reload: 12
 heatColor: cd8d4a
 
 researchCostMultiplier: 0.5
@@ -43,13 +43,13 @@ smokeEffect: shootBigSmoke
 category: turret
 research: core-frost
 requirements: [
-item-curium/45
+item-curium/80
 ]
 shoot: {
   type: ShootAlternate
   spread: 8
   shots: 2
-  shotDelay: 2
+  shotDelay: 6
 }
 range: 120
 shootSound: plasmadrop
@@ -60,7 +60,7 @@ ammoTypes: {
     despawnHit: true
     type: BasicBulletType
     speed: 12
-    lifetime: 90
+    lifetime: 15
     damage: 12
     pierce: true
     pierceCap: 4
@@ -73,7 +73,7 @@ ammoTypes: {
     frontColor: d7fafc
     trailWidth: 2.5
     trailLength: 40
-    lightRadius: 40
+    lightRadius: 75
     lightOpacity: 0.7
     lightColor: 2e293a
     spin: 0
