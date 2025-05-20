@@ -12,11 +12,11 @@ requirements: [
 ]
 consumes: {
 items:[
-item-curium/3
+item-curium/2
 ]
 }
 powerProduction: 1
-itemDuration: 120
+itemDuration: 50
 generateEffect: generatespark
 ambientSound: extractLoop
 ambientSoundVolume: 0.07
