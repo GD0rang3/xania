@@ -13,8 +13,8 @@ speed: 1.6666666666667
 rotateSpeed: 5
 accel: 0.095
 groundLayer: 60
-health: 210
-armor: 1
+health: 260
+armor: 2
 hitSize: 6
 canDrown: false
 researchCostMultiplier: 1.5
@@ -55,7 +55,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       speed: 3
-      lifetime: 40
+      lifetime: 80
       damage: 9
       width: 3
       height: 6
