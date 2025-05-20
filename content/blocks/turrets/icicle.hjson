@@ -47,6 +47,7 @@ item-curium/45
 shoot: {
   type: ShootAlternate
   spread: 8
+  shots: 2
   shotDelay: 2
 }
 range: 120
