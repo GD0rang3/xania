@@ -1,0 +1,8 @@
+testList.1: Hello
+testList.2: World
+
+testDict.hi: Hello
+testDict.buddy: World
+
+testDict2.testList2.1: List Inside Dict Test
+testList3.testDict3.text: Dict Inside List Test
