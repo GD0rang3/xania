@@ -32,4 +32,4 @@ jobs:
         fi
     - name: Parse PHJ
       run: |
-        python PHJFolder.py
+        python PHJFolder.py .
