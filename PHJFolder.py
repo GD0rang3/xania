@@ -1,20 +1,18 @@
 import phj
-from pathlib import Path
-import json
 import sys
+import os
+import json
 
-mod_folder = sys.argv[1]
-mod_path = Path(mod_folder)
+input_path = sys.argv[1] if len(sys.argv) > 1 else "example.phj"
 
-for file in mod_path.rglob("*.phj"):
-    with open(file, "r") as f:
-        content = f.read()
+with open(input_path, "r", encoding="utf-8") as f:
+    content = f.read()
 
-    data = phj.loads(content)
-    json_file = file.with_suffix(".json")
+data = phj.loads(content)
 
-    with open(json_file, "w") as f:
-        if isinstance(data, dict):
-            json.dump(data, f, indent=4)
-        else:
-            f.write(data)
+output_path = os.path.splitext(input_path)[0] + ".json"
+
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print(f"Written to {output_path}")
