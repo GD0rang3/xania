@@ -1,7 +1,0 @@
-name: Curium
-description: "Used in basic building."
-hardness: 2
-cost: 1
-color: 47bee6
-research: core-frost
-hiddenOnPlanets: [serpulo, erekir]
