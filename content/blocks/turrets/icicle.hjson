@@ -64,19 +64,19 @@ ammoTypes: {
     pierceCap: 4
     keepVelocity: false
     width: 8
-    height: 16
+    height: 32
     trailChance: -1
-    trailColor: 2e293a
-    backColor: 2e293a
-    frontColor: 594e6b
+    trailColor: 597f94
+    backColor: 597f94
+    frontColor: d7fafc
     trailWidth: 2.5
-    trailLength: 22
+    trailLength: 40
     lightRadius: 40
     lightOpacity: 0.7
     lightColor: 2e293a
-    spin: 4
+    spin: 0
     layer: 99
-    ammoMultiplier: 2
+    ammoMultiplier: 0.5
   }
 }
 outlineColor: 101012
