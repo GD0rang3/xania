@@ -8,7 +8,7 @@ mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
 drag: 0.08
-outlineColor: 44413c
+outlineColor: 101012
 speed: 1.6666666666667
 rotateSpeed: 5
 accel: 0.095
