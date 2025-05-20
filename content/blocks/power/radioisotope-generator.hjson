@@ -1,0 +1,35 @@
+type: ConsumeGenerator
+name: Radioisotope Generator
+description: Transforms into electricity the thermal energy naturally produced by the decay of Curium.
+size: 3
+category: power
+research: {
+  parent: core-frost
+}
+squareSprite: false
+requirements: [
+ curium/80
+]
+consumes: {
+  
+powerProduction: 0.5
+itemDuration: 120
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 0.5
