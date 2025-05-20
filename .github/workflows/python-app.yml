@@ -32,7 +32,7 @@ jobs:
         fi
     - name: Parse PHJ
       run: |
-        python PHJFolder.py
+        python PHJFolder.py .
 
     - name: Upload result
       uses: actions/upload-artifact@v4
