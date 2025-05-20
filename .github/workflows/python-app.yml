@@ -32,11 +32,11 @@ jobs:
         fi
     - name: Parse PHJ
       run: |
-        python PHJFolder.py .
-    - name: Upload Result
-        uses: actions/upload-artifact@v4
-        with:
-          name: PHJ-JSON-OUTPUT
-          path: |
-            *.json
-        
+        python PHJFolder.py
+
+    - name: Upload result
+      uses: actions/upload-artifact@v4
+      with:
+        name: phj-json-output
+        path: |
+          *.json
