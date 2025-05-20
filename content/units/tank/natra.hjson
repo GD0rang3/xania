@@ -6,10 +6,10 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 101012
-speed: 1.2
+speed: 0.8
 rotateSpeed: 6
-health: 280
-armor: 1
+health: 330
+armor: 2
 itemCapacity: 0
 hitSize: 13
 treadRects: [
@@ -43,19 +43,19 @@ weapons: [
         pierce: false
         buildingDamageMultiplier: 0.25
         pierceBuilding: false
-        lightningColor: e9c574
+        lightningColor: a4cfde
       }
       type: LaserBulletType
       pierce: true
       colors: [4c8ab3, 74e7e9, ffffff]
       pierceBuilding: false
       length: 80
-      width: 1.5
+      width: 3
       sideAngle: 90
       sideWidth: 1.4
       pierce: true
-      pierceCap: 1
-      damage: 4
+      pierceCap: 3
+      damage: 6
       despawnSound: missileSmall
       hitSound: missileSmall
     }
