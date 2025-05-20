@@ -76,7 +76,7 @@ ammoTypes: {
     lightColor: 2e293a
     spin: 0
     layer: 99
-    ammoMultiplier: 0.5
+    ammoMultiplier: 1
   }
 }
 outlineColor: 101012
