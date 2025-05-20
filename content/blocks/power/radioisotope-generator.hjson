@@ -11,7 +11,7 @@ requirements: [
  item-curium/80
 ]
 consumes: [
-items: item-curium/3
+item-curium/3
 ]
 powerProduction: 1
 itemDuration: 120
