@@ -1,8 +1,9 @@
 import phj
 from pathlib import Path
 import json
+import sys
 
-mod_folder = input("Mindustry Mod Folder: ")
+mod_folder = sys.argv[1]
 mod_path = Path(mod_folder)
 
 for file in mod_path.rglob("*.phj"):
