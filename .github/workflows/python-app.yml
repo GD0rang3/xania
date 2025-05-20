@@ -39,4 +39,4 @@ jobs:
       with:
         name: phj-json-output
         path: |
-          *.json
+          **/*.json
