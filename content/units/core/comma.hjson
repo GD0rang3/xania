@@ -17,7 +17,7 @@ buildSpeed: 1
 drag: 0.5
 itemCapacity: 25
 alwaysUnlocked: true
-outlineColor: 040b1c
+outlineColor: 101012
 
       trailChance: -1
       trailEffect: dynamicSpikes
