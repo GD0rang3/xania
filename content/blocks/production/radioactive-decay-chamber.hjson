@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Radioactive Decay chamber
+category: crafting
+research: {
+parent: core-frost
+requirements: [
+ item-curium/250
+]
+}  
+health: 140
+size: 2
+itemCapacity: 20
+requirements: [
+   item-curium/75
+]
+outputItem: item-plutonium/1
+craftTime: 30
+consumes: {
+ items: [
+  item-curium/4
+ ]
+power: 1
+}

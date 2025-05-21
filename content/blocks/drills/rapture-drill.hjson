@@ -1,0 +1,25 @@
+type: BurstDrill
+name: Rupture Drill
+description: Violently shakes the ground to reveal oganesson and osmium to extract.
+size: 2
+category: production
+hasLiquids: false
+research: {
+  parent: pressurized-drill
+requirements:[
+item-curium/230
+item-plutonium/40
+]
+    }
+hardnessDrillMultiplier: 0.45
+hasPower: false
+tier: 3
+drillTime: 180
+shake: 5
+itemCapacity: 10
+researchCostMultiplier: 0.5
+requirements: [
+item-curium/40
+item-plutonium/15
+]
+squareSprite: false
