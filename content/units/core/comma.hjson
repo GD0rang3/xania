@@ -17,7 +17,7 @@ buildSpeed: 1
 drag: 0.5
 itemCapacity: 25
 alwaysUnlocked: true
-outlineColor: 101012
+outlineColor: 040b1c
 
       trailChance: -1
       trailEffect: dynamicSpikes
@@ -48,9 +48,9 @@ weapons: [
       hitColor: 79d4e8
       buildingDamageMultiplier: 0.01
       speed: 10
-      lifetime: 20
-      damage: 12
-      splashDamage: 5
+      lifetime: 90
+      damage: 20
+      splashDamage: 20
       splashDamageRadius: 30
       width: 9
       height: 20

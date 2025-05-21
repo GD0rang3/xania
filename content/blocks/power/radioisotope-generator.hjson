@@ -10,14 +10,27 @@ squareSprite: false
 requirements: [
  item-curium/80
 ]
-consumes: {
-items:[
-item-curium/2
+consumes: [
+  item-curium/.003333
 ]
-}
-powerProduction: 1
-itemDuration: 50
+powerProduction: 3
+itemDuration: 120
 generateEffect: generatespark
-ambientSound: extractLoop
-ambientSoundVolume: 0.2
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
 researchCostMultiplier: 0.5

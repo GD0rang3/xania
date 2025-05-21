@@ -6,10 +6,16 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 101012
-speed: 0.8
+speed: 1.2
+research: {
+parent: curium-factory
+requirements: [
+ item-curium/130
+]
+} 
 rotateSpeed: 6
-health: 330
-armor: 2
+health: 280
+armor: 1
 itemCapacity: 0
 hitSize: 13
 treadRects: [
@@ -43,19 +49,19 @@ weapons: [
         pierce: false
         buildingDamageMultiplier: 0.25
         pierceBuilding: false
-        lightningColor: a4cfde
+        lightningColor: e9c574
       }
       type: LaserBulletType
       pierce: true
       colors: [4c8ab3, 74e7e9, ffffff]
       pierceBuilding: false
       length: 80
-      width: 3
+      width: 1.5
       sideAngle: 90
       sideWidth: 1.4
       pierce: true
-      pierceCap: 3
-      damage: 6
+      pierceCap: 1
+      damage: 4
       despawnSound: missileSmall
       hitSound: missileSmall
     }
