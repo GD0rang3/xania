@@ -11,7 +11,7 @@ item-curium/230
 item-plutonium/40
 ]
     }
-hardnessDrillMultiplier: 0.45
+hardnessDrillMultiplier: 0.65
 hasPower: false
 tier: 3
 drillTime: 180
