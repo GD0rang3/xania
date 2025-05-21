@@ -11,26 +11,11 @@ requirements: [
  item-curium/80
 ]
 consumes: [
-  item-curium/0.003333
+  item-curium/3
 ]
-powerProduction: 3
+powerProduction: 1
 itemDuration: 120
 generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawCrucibleFlame
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-} 
 researchCostMultiplier: 0.5
