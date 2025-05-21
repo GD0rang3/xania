@@ -1,5 +1,5 @@
 type: UnitFactory
-name: curium factory
+name: Curium Unit Assembly
 requirements: [
  item-curium/300
 ]
