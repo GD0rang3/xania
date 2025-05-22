@@ -14,10 +14,10 @@ requirements: [
    item-curium/75
 ]
 outputItem: item-plutonium/1
-craftTime: 30
+craftTime: 60
 consumes: {
  items: [
-  item-curium/4
+  item-curium/2
  ]
 power: 1
 }
