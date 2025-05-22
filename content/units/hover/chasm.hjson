@@ -40,7 +40,7 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -3
+    y: -10
     radius: 8
   }
 ]
@@ -64,16 +64,16 @@ weapons: [
       length: 130
       width: 16
       sideAngle: 90
-      sideWidth: 8
+      sideWidth: 20
       pierce: true
       pierceCap: 10
-      damage: 150
+      damage: 250
       despawnSound: spark
       hitSound: spark
      }
   }
   {
-    x: 6
+    x: 7
     y: 8
     mirror: true
     alternate: false
@@ -99,7 +99,7 @@ weapons: [
     }
   }
 {
-    x: 8
+    x: 9
     y: 7
     mirror: true
     alternate: true
@@ -126,7 +126,7 @@ weapons: [
   }
 {
     x: 15
-    y: -1
+    y: -3
     mirror: true
     alternate: false
     reload: 75
