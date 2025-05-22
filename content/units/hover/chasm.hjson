@@ -23,7 +23,7 @@ accel: 2
 groundLayer: 90
 health: 3600
 armor: 4
-hitSize: 13
+hitSize: 24
 canDrown: false
 researchCostMultiplier: 1.5
 abilities: [
