@@ -18,9 +18,9 @@ item-plutonium/5400
 } 
 outlineColor: 101012
 speed: 0.6
-rotateSpeed: 2
+rotateSpeed: 4
 accel: 2
-groundLayer: 70
+groundLayer: 150
 health: 3600
 armor: 4
 hitSize: 13
@@ -32,9 +32,9 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: -13
+    y: -10
     interval: 4
-    minVelocity: 0.6
+    minVelocity: 0.1
   }
 ]
 engines: [
@@ -61,10 +61,10 @@ weapons: [
       pierce: true
       colors: [b3934c, e9c574, ffffff]
       pierceBuilding: false
-      length: 130
+      length: 200
       width: 16
       sideAngle: 90
-      sideWidth: 20
+      sideWidth: 10
       pierce: true
       pierceCap: 10
       damage: 250
@@ -87,7 +87,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       speed: 3
-      lifetime: 40
+      lifetime: 60
       damage: 10
       width: 15
       height: 15
@@ -113,7 +113,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       speed: 6
-      lifetime: 20
+      lifetime: 35
       damage: 1
       width: 3
       height: 15
