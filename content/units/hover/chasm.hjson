@@ -73,7 +73,7 @@ weapons: [
      }
   }
   {
-    x: 4
+    x: 6
     y: 8
     mirror: true
     alternate: false
@@ -86,16 +86,70 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      speed: 4
-      lifetime: 55
+      speed: 3
+      lifetime: 40
       damage: 10
-      width: 5
-      height: 12
+      width: 15
+      height: 15
+      trailWidth: 6
+      trailLength: 4
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+{
+    x: 8
+    y: 7
+    mirror: true
+    alternate: true
+    reload: 13
+    rotate: false
+    shootSound: missile
+    shoot: {
+      shots: 13
+      shotDelay: 1
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 6
+      lifetime: 20
+      damage: 1
+      width: 3
+      height: 15
       trailWidth: 3
       trailLength: 4
       pierce: false
       shrinkX: 0
       shrinkY: 0
     }
+  }
+{
+    x: 15
+    y: -1
+    mirror: true
+    alternate: false
+    reload: 75
+    rotate: false
+    shootSound: shootArtilleryBig
+    shoot: {
+      shots: 8
+      shotDelay: 2
+    }
+    bullet:{
+      type: LaserBulletType
+      pierce: true
+      colors: [b3934c, e9c574, ffffff]
+      pierceBuilding: false
+      length: 100
+      width: 8
+      sideAngle: 90
+      sideWidth: 4
+      pierce: true
+      pierceCap: 3
+      damage: 35
+      despawnSound: spark
+      hitSound: spark
+     }
   }
 ]
