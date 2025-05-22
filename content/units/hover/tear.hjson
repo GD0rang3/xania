@@ -53,19 +53,19 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -14
+    y: -6
     radius: 2.5
     rotation: -90
   }
   {
-    x: -15
-    y: -5
+    x: -6
+    y: -3
     radius: 1.4
     rotation: -90
   }
   {
-    x: 15
-    y: -5
+    x: 6
+    y: -3
     radius: 1.4
     rotation: -90
   }
@@ -75,8 +75,8 @@ engineSize: 0
 useEngineElevation: false
 weapons: [
   {
-    x: 12
-    y: 5
+    x: 5
+    y: 3
     mirror: true
     alternate: true
     reload: 100
