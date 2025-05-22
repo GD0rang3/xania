@@ -13,6 +13,7 @@ parent: tear
 requirements: [
  item-curium/4600
  item-oganesson/1200
+]
 } 
 outlineColor: 101012
 speed: 1
