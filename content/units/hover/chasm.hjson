@@ -1,0 +1,101 @@
+type: mech
+name: Chasm
+description: Utterly obliterates enemies using barrages of lasers and missiles.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+research: {
+parent: split
+requirements: [
+ item-curium/12500
+ item-oganesson/7600
+item-plutonium/5400
+]
+} 
+outlineColor: 101012
+speed: 0.6
+rotateSpeed: 2
+accel: 2
+groundLayer: 70
+health: 3600
+armor: 4
+hitSize: 13
+canDrown: false
+researchCostMultiplier: 1.5
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -13
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -3
+    radius: 8
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+  {
+    x: 0
+    y: 11
+    reload: 160
+    mirror: false
+    alternate: false
+    rotate: false
+    shootSound: plasmadrop
+      bullet:{
+      type: LaserBulletType
+      pierce: true
+      colors: [b3934c, e9c574, ffffff]
+      pierceBuilding: false
+      length: 130
+      width: 16
+      sideAngle: 90
+      sideWidth: 8
+      pierce: true
+      pierceCap: 10
+      damage: 150
+      despawnSound: spark
+      hitSound: spark
+     }
+  }
+  {
+    x: 4
+    y: 8
+    mirror: true
+    alternate: false
+    reload: 50
+    rotate: false
+    shootSound: missile
+    shoot: {
+      shots: 8
+      shotDelay: 2
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 4
+      lifetime: 55
+      damage: 10
+      width: 5
+      height: 12
+      trailWidth: 3
+      trailLength: 4
+      pierce: false
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+]
