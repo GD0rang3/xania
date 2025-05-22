@@ -80,6 +80,7 @@ weapons: [
     reload: 50
     rotate: false
     shootSound: missile
+    inaccuracy: 1
     shoot: {
       shots: 8
       shotDelay: 2
@@ -122,6 +123,7 @@ weapons: [
       pierce: false
       shrinkX: 0
       shrinkY: 0
+      inaccuracy: 2
     }
   }
 {
@@ -151,5 +153,6 @@ weapons: [
       despawnSound: spark
       hitSound: spark
      }
+    inaccuracy: 0.2
   }
 ]
