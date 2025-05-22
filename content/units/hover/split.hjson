@@ -1,6 +1,6 @@
 type: mech
-name: Crak
-description: Fires homing missiles at enemies. Cannot cross terrain.
+name: Split
+description: Fires homing missiles and a big laser at enemies. Cannot cross terrain.
 hovering: true
 hoverable: true
 shadowElevation: 0.1
@@ -9,20 +9,19 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.08
 research: {
-parent: curium-factory
+parent: tear
 requirements: [
- item-curium/100
- item-oganesson/40
-]
+ item-curium/4600
+ item-oganesson/1200
 } 
 outlineColor: 101012
-speed: 1.6666666666667
-rotateSpeed: 5
-accel: 0.095
-groundLayer: 60
-health: 210
-armor: 1
-hitSize: 6
+speed: 1
+rotateSpeed: 3
+accel: 2
+groundLayer: 70
+health: 960
+armor: 3
+hitSize: 8
 canDrown: false
 researchCostMultiplier: 1.5
 abilities: [
@@ -40,6 +39,16 @@ engines: [
   {
     x: 0
     y: -6.6
+    radius: 3
+  }
+  {
+    x: -5
+    y: -2
+    radius: 1.5
+  }
+{
+    x: 5
+    y: -2
     radius: 1.5
   }
 ]
@@ -66,7 +75,7 @@ weapons: [
       sideWidth: 3
       pierce: true
       pierceCap: 5
-      damage: 20
+      damage: 55
       despawnSound: spark
       hitSound: spark
      }
@@ -76,11 +85,11 @@ weapons: [
     y: 1
     mirror: true
     alternate: false
-    reload: 48
+    reload: 50
     rotate: false
     shootSound: missile
     shoot: {
-      shots: 2
+      shots: 8
       shotDelay: 5
     }
     bullet: {
