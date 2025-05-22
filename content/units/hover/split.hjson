@@ -42,7 +42,7 @@ abilities: [
     effect: missileTrailShort
     x: -8
     y: -8
-    interval: 4
+    interval: 8
     minVelocity: 0.6
   }
 {
@@ -51,7 +51,7 @@ abilities: [
     effect: missileTrailShort
     x: 8
     y: -8
-    interval: 4
+    interval: 8
     minVelocity: 0.6
   }
 ]
@@ -90,7 +90,7 @@ weapons: [
       colors: [b3934c, e9c574, ffffff]
       pierceBuilding: false
       length: 130
-      width: 8.5
+      width: 5
       sideAngle: 90
       sideWidth: 3
       pierce: true
@@ -102,7 +102,7 @@ weapons: [
   }
   {
     x: 10
-    y: 2
+    y: 2.5
     mirror: true
     alternate: false
     reload: 50
