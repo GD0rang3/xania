@@ -40,17 +40,17 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -6.6
+    y: -7.5
     radius: 3
   }
   {
-    x: -15
-    y: -2
+    x: -8
+    y: -4
     radius: 1.5
   }
 {
-    x: 15
-    y: -2
+    x: 8
+    y: -4
     radius: 1.5
   }
 ]
