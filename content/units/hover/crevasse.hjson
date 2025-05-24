@@ -9,7 +9,7 @@ requirements: [
  item-curium/75000
  item-oganesson/54000
 item-plutonium/23000
-  item-osmium 30000
+  item-osmium/30000
 ]
 } 
 outlineColor: 101012
