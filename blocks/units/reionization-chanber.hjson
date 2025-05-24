@@ -1,7 +1,7 @@
 type: Reconstructor
-name: Reionization Chanber
+name: Reionization Chamber
 description: Completely rearranges the structure of units to make them much more powerful
-size: 4
+size: 3
 health: 1300
 configurable: false
 requirements: [
