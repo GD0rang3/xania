@@ -1,0 +1,33 @@
+type: Reconstructor
+name: Reionization Chanber
+description: Completely rearranges the structure of units to make them much more powerful
+size: 4
+health: 1300
+configurable: false
+requirements: [
+  item-curium/100
+  item-oganesson/50
+]
+constructTime: 1500
+category: units
+upgrades: [
+  [ tear, split]
+]
+consumes: {
+  power: 2
+  items: [
+  item-curium/60
+  item-plutonium/40
+  item-plutonium/30
+  ]
+}
+research: {
+parent: ionic-bond-upgrader
+requirements: [
+ item-curium/1500
+  item-oganesson/700
+  item-plutonium/300
+  item-osmium/150
+]
+}
+researchCostMultiplier: 0.5

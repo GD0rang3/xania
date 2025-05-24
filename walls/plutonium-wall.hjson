@@ -1,0 +1,16 @@
+type: wall
+category: defense
+name: Plutonium Wall
+insulated: true
+absorbLasers: true
+health: 485
+size: 2
+research: {
+    parent: osmium-wall
+    requirements: [
+        item-plutonium/20
+    ]
+}
+requirements: [
+    item-plutonium/5
+]
