@@ -12,7 +12,6 @@ constructTime: 800
 category: units
 upgrades: [
   [ crak, tear ]
-  [ tear, split ]
 ]
 consumes: {
   power: 1
