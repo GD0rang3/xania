@@ -9,8 +9,8 @@ mesh: [
     divisions: 5
     radius: 1.22
     seed: 94
-    color1: 5c4e3e
-    color2: 362319
+    color1: ccd9f0
+    color2: 93a2bd
     octaves: 3.7
     persistence: 0.6
   }
@@ -21,10 +21,10 @@ mesh: [
     divisions: 6
     seed: 101
     radius: 1.2441
-    color1: 85c3de
+    color1: 325052
     color2: 405e6b
-    octaves: 5.1
-    persistence: 0.8
+    octaves: 4.2
+    persistence: 0.7
   }
 ]
 cloudMesh: [
