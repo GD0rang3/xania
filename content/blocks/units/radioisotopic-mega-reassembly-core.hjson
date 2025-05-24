@@ -1,0 +1,36 @@
+type: Reconstructor
+name: Radioisotopic Mega Reassembly Core
+description: gogo
+size: 9
+health: 1800
+configurable: false
+requirements: [
+  item-curium/2500
+  item-oganesson/2000
+  item-plutonium/800
+  item-osmium/1500
+]
+constructTime: 2700
+category: units
+upgrades: [
+  [ chasm, crevasse ]
+]
+consumes: {
+  power: 360
+  items: [
+  item-curium/650
+  item-oganesson/540
+  item-plutonium/300
+  item-osmium/200
+  ]
+}
+research: {
+parent: reionization-chanber
+requirements: [
+  item-curium/140000
+  item-oganesson/130000
+  item-plutonium/98000
+  item-osmium/88000
+]
+}
+researchCostMultiplier: 0.5
