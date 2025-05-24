@@ -46,34 +46,10 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: c1e8f5
+   color: 2d4f61
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: xania
-   speed: 1.01
-   radius: 0.11
-   divisions: 6
-   color: bad7e0
-   octaves: 3
-   persistence: 0.4
-   scl: 0.9
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: xania
-   speed: 0.891
-   radius: 0.091
-   divisions: 6
-   color: b7deeb
-   octaves: 3
-   persistence: 0.5
-   scl: 1.1
    thresh: 0.6
   }
 ]
@@ -110,7 +86,7 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
-atmosphereColor: 527282
+atmosphereColor: 2c3a40
 iconColor: 7cc6eb
 hasAtmosphere: true
 allowWaveSimulation: true
