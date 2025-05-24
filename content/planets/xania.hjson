@@ -5,7 +5,7 @@ mesh: [
  {
     //water
     type: NoiseMesh
-    planet: asthosus
+    planet: xania
     divisions: 5
     seed: 7
     radius: 1.229
@@ -17,7 +17,7 @@ mesh: [
   {
     //ferrinite
     type: NoiseMesh
-    planet: asthosus
+    planet: xania
     divisions: 5
     radius: 1.22
     seed: 94
@@ -29,7 +29,7 @@ mesh: [
   {
     //sand
     type: NoiseMesh
-    planet: asthosus
+    planet: xania
     divisions: 6
     seed: 101
     radius: 1.2441
@@ -42,7 +42,7 @@ mesh: [
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: asthosus
+   planet: xania
    speed: 1.21
    radius: 0.1
    divisions: 6
@@ -54,7 +54,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: asthosus
+   planet: xania
    speed: 1.01
    radius: 0.11
    divisions: 6
@@ -66,7 +66,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: asthosus
+   planet: xania
    speed: 0.891
    radius: 0.091
    divisions: 6
