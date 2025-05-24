@@ -1,7 +1,7 @@
 type: Reconstructor
 name: Molecular Reassembly Unit
 description: Breaks down units and uses great amounts of items and energy to recreate them on a larger scale
-size: 5
+size: 7
 health: 400
 configurable: false
 requirements: [

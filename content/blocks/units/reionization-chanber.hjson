@@ -1,7 +1,7 @@
 type: Reconstructor
 name: Reionization Chanber
 description: Completely rearranges the structure of units to make them much more powerful
-size: 4
+size: 5
 health: 1300
 configurable: false
 requirements: [
