@@ -1,7 +1,8 @@
 type: Reconstructor
 name: Reionization Chamber
 description: Completely rearranges the structure of units to make them much more powerful
-size: 3
+size: 4
+buildVisibility: shown
 health: 1300
 configurable: false
 requirements: [
