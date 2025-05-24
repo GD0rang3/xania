@@ -1,0 +1,85 @@
+
+//help....
+/*parts: [
+    {
+        suffix : -side
+        type : RegionPart
+         mirror: true
+         under: false
+         moveX: 1
+         moveY: 0
+         moveRot: -30
+         progress: warmup
+          x: 7.5
+          y: -2
+    }
+    {
+        suffix : -fin
+        type : RegionPart
+         mirror: true
+         under: false
+         moveX: 0
+         moveY: 0
+         moveRot: -9
+         progress: recoil
+          x: 3.1
+          y: -1.5
+    }
+]*/
+type: ItemTurret
+name: Icicle
+description: Fires alternating, powerful rounds at enemies, piercing them. Specialized at annihilating swarms. Less efficient against single targets.
+size: 2
+squareSprite: false
+reload: 12
+heatColor: cd8d4a
+
+researchCostMultiplier: 0.5
+
+recoils: 2
+
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+category: turret
+research: core-frost
+requirements: [
+item-curium/80
+]
+shoot: {
+  type: ShootAlternate
+  spread: 8
+  shots: 2
+  shotDelay: 6
+}
+range: 120
+shootSound: plasmadrop
+ammoTypes: {
+  item-curium: {
+    reloadMultiplier: 0.66666666666666
+    hitEffect: plasticExplosion
+    despawnHit: true
+    type: BasicBulletType
+    speed: 12
+    lifetime: 15
+    damage: 12
+    pierce: true
+    pierceCap: 4
+    keepVelocity: false
+    width: 8
+    height: 32
+    trailChance: -1
+    trailColor: 597f94
+    backColor: 597f94
+    frontColor: d7fafc
+    trailWidth: 2.5
+    trailLength: 40
+    lightRadius: 75
+    lightOpacity: 0.7
+    lightColor: 2e293a
+    spin: 0
+    layer: 99
+    ammoMultiplier: 1
+  }
+}
+outlineColor: 101012
+inaccuracy: 1

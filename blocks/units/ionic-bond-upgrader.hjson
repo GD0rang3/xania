@@ -1,0 +1,32 @@
+type: Reconstructor
+name: Ionic Bond Upgrader
+description: Rearranges the molecules of a unit and adds more to strengthen it.
+size: 3
+health: 400
+configurable: false
+requirements: [
+  item-curium/100
+  item-oganesson/50
+]
+constructTime: 800
+category: units
+upgrades: [
+  [ crak, tear ]
+  [ crak, tear ]
+]
+consumes: {
+  power: 1
+  items: [
+  item-curium/20
+  item-plutonium/20
+  ]
+}
+research: {
+parent: curium-unit-assembly
+requirements: [
+ item-curium/350
+  item-oganesson/140
+  item-plutonium/80
+]
+}  
+researchCostMultiplier: 0.5

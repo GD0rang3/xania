@@ -1,0 +1,14 @@
+type: wall
+category: defense
+name: Large Curium Wall
+health: 1320
+size: 2
+research: {
+    parent: curium-wall
+    requirements: [
+        item-curium/80
+    ]
+}
+requirements: [
+    item-curium/20
+]
