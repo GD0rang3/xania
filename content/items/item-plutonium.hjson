@@ -2,6 +2,6 @@ name: Plutonium
 description: material made through the decay of curium, very radioactive
 hardness: 2
 cost: 1
-color: fc9003
+color: e88e3a
 research: item-curium
 hiddenOnPlanets: [serpulo, erekir]
