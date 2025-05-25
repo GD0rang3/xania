@@ -42,6 +42,7 @@ weapons: [
     alternate: false
     rotate: true
     shootSound: laserblast
+    recoil: 100
       bullet:{
       type: LaserBulletType
       pierce: true
@@ -65,7 +66,7 @@ weapons: [
     mirror: true
     alternate: true
     reload: 25
-    rotate: false
+    rotate: true
     shootSound: dullExplosion
     inaccuracy: 12
     shoot: {
@@ -94,7 +95,7 @@ weapons: [
     mirror: true
     alternate: true
     reload: 10
-    rotate: false
+    rotate: true
     shootSound: mediumCannon
     inaccuracy: 6
     bullet: {
