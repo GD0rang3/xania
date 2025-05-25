@@ -45,8 +45,8 @@ ammoTypes: {
     spin: 0
     layer: 99
     ammoMultiplier: 1
-    shrinkX: 10
-    shrinkY: 14
+    shrinkX: -1.2
+    shrinkY: -1.5
   }
 }
 outlineColor: 101012
