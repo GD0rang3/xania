@@ -37,6 +37,7 @@ weapons: [
       shoot:{
       shots: 3
         shotDelay: 6
+}
     bullet: {
       fragLifeMin: 1
       fragLifeMax: 1
