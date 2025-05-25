@@ -1,5 +1,5 @@
 type: Reconstructor
-name: Reionization Chanber
+name: Reionization Chamber
 description: Completely rearranges the structure of units to make them much more powerful
 size: 5
 health: 1300
@@ -17,7 +17,7 @@ consumes: {
   power: 2
   items: [
   item-curium/60
-  item-plutonium/40
+  item-oganesson/40
   item-plutonium/30
   ]
 }
