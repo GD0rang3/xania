@@ -1,0 +1,74 @@
+type: tank
+name: Thanyrra
+description: Brings storms, devastation and utter obliteration to anyone in your way.
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 101012
+speed: 1
+research: {
+parent: natra
+requirements: [
+ item-curium/1
+]
+} 
+rotateSpeed: 6
+health: 23000
+armor: 5
+itemCapacity: 0
+hitSize: 35
+treadRects: [
+  {
+    x: 25
+    y: -50
+    width: 20
+    height: 60
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 16
+    name: thanyrra-weapon
+    reload: 160
+    rotate: true
+    mirror: false
+    shootSound: pulseBlast
+      shoot:{
+      shots: 10
+        shotDelay: 1
+}
+    bullet: {
+      fragLifeMin: 1
+      fragLifeMax: 5
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 8
+      fragBullets: 2
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 100
+        damage: 85
+        pierce: true
+        pierceCap: 5
+        buildingDamageMultiplier: 0.25
+        pierceBuilding: false
+        lightningColor: e9c574
+      }
+      type: LaserBulletType
+      pierce: true
+      colors: [4c8ab3, 74e7e9, ffffff]
+      pierceBuilding: false
+      length: 240
+      width: 10
+      sideAngle: 90
+      sideWidth: 5
+      pierce: true
+      pierceCap: 5
+      damage: 170
+      despawnSound: missileLarge
+      hitSound: missileLarge
+    }
+  }
+]
+researchCostMultiplier: 1.5
