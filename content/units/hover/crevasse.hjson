@@ -16,7 +16,7 @@ outlineColor: 101012
 speed: 1
 rotateSpeed: 3.5
 accel: 0.1
-groundLayer: 150
+groundLayer: 130
 health: 16000
 armor: 5
 hitSize: 32
@@ -48,14 +48,14 @@ weapons: [
       colors: [b3934c, e9c574, ffffff]
       pierceBuilding: true
       length: 250
-      width: 60
+      width: 10
       sideAngle: 90
-      sideWidth: 10
+      sideWidth: 30
       pierce: true
       pierceCap: 20
       damage: 850
-      despawnSound: shockBlast
-      hitSound: spark
+      despawnSound: laserblast
+      hitSound: lasercharge
      }
   }
   {
@@ -95,7 +95,7 @@ weapons: [
     alternate: true
     reload: 10
     rotate: false
-    shootSound: dullExplosion
+    shootSound: mediumCannon
     inaccuracy: 6
     bullet: {
       type: ArtilleryBulletType
