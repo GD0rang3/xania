@@ -20,7 +20,7 @@ requirements:[
 targetAir: false
 targetGround: true
 reload: 70
-range
+range: 220
 ammoTypes: {
   item-curium: {
     hitEffect: massiveExplosion
