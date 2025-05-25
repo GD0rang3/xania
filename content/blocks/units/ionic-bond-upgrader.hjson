@@ -12,6 +12,7 @@ constructTime: 800
 category: units
 upgrades: [
   [ crak, tear ]
+  [ natra, eltran ]
 ]
 consumes: {
   power: 1
