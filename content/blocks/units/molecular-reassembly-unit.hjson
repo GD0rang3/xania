@@ -18,10 +18,10 @@ upgrades: [
 consumes: {
   power: 4
   items: [
-  item-curium/120
-  item-oganesson/70
-  item-plutonium/90
-  item-osmium/80
+  item-curium/680
+  item-oganesson/580
+  item-plutonium/600
+  item-osmium/450
   ]
 }
 research: {
