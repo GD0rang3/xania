@@ -42,7 +42,7 @@ weapons: [
     alternate: false
     rotate: true
     shootSound: laserblast
-    recoil: 100
+    recoil: 8
       bullet:{
       type: LaserBulletType
       pierce: true
