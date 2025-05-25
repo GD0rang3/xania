@@ -1,2 +1,58 @@
-type: Turret
-category: turrets
+type: ItemTurret
+category: turret
+name: Trebuchet
+size: 3
+squareSprite: false
+description: Attacks enemies by slinging materials up in the air.
+research:{
+  parent: icicle
+  requirements:[
+    item-curium/120
+    item-plutonium/30
+    item-oganesson/50
+  ]
+}
+researchCostMultiplier: 0.4
+requirements:[
+ item-curium/70
+ item-oganesson/50
+]
+targetAir: false
+targetGround: true
+reload: 70
+range
+ammoTypes: {
+  item-curium: {
+    hitEffect: massiveExplosion
+    type: ArtilleryBulletType
+    speed: 3
+    lifetime: 15
+    damage: 30
+    splashDamage:15
+    splashDamageRadius: 50
+    keepVelocity: false
+    width: 10
+    height: 14
+    trailChance: -1
+    trailColor: 597f94
+    backColor: 597f94
+    frontColor: d7fafc
+    trailWidth: 2.5
+    trailLength: 25
+    lightRadius: 75
+    lightOpacity: 0.7
+    lightColor: 2e293a
+    spin: 0
+    layer: 99
+    ammoMultiplier: 1
+    shrinkX: -10
+    shrinkY: -14
+  }
+}
+outlineColor: 101012
+inaccuracy: 1
+drawer:{
+type: DrawTurret
+prefix: icicle-
+}
+
