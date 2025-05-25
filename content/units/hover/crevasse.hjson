@@ -16,7 +16,7 @@ outlineColor: 101012
 speed: 1
 rotateSpeed: 3.5
 accel: 0.1
-groundLayer: 100
+groundLayer: 90
 health: 16000
 armor: 5
 hitSize: 32
@@ -41,7 +41,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    shootSound: plasmadrop
+    shootSound: laserblast
       bullet:{
       type: LaserBulletType
       pierce: true
@@ -54,14 +54,14 @@ weapons: [
       pierce: true
       pierceCap: 20
       damage: 850
-      despawnSound: laserblast
+      despawnSound: lasercharge
       hitSound: explosionBig
      }
   }
   {
     name: crevasse-machineguns
-    x: 17
-    y: 12
+    x: 14
+    y: 10
     mirror: true
     alternate: true
     reload: 25
@@ -75,7 +75,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       speed: 8
-      lifetime: 20
+      lifetime: 30
       damage: 12
       width: 4
       height: 15
@@ -100,17 +100,17 @@ weapons: [
     bullet: {
       type: ArtilleryBulletType
       speed: 4
-      lifetime: 70
+      lifetime: 120
       damage: 100
-      splashDamage: 90
-      splashDamageRadius: 60
+      splashDamage: 200
+      splashDamageRadius: 100
       width: 25
-      height: 30
+      height: 25
       trailWidth: 6
       trailLength: 4
       pierce: false
       shrinkX: 0
-      shrinkY: 5
+      shrinkY: 0
     }
   }
 
