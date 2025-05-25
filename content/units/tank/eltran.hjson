@@ -1,0 +1,72 @@
+type: tank
+name: Eltran
+description: Electrocutes enemies.
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 101012
+speed: 1.2
+research: {
+parent: natra
+requirements: [
+ item-curium/250
+]
+} 
+rotateSpeed: 6
+health: 750
+armor: 2
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: natra-weapon
+    reload: 30
+    rotate: true
+    mirror: false
+    shootSound: pulseBlast
+      shoot:{
+      shots: 3
+        shotDelay: 6
+    bullet: {
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragBullets: 2
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 12
+        damage: 5
+        pierce: false
+        buildingDamageMultiplier: 0.25
+        pierceBuilding: false
+        lightningColor: e9c574
+      }
+      type: LaserBulletType
+      pierce: true
+      colors: [4c8ab3, 74e7e9, ffffff]
+      pierceBuilding: false
+      length: 80
+      width: 1.5
+      sideAngle: 90
+      sideWidth: 3
+      pierce: true
+      pierceCap: 2
+      damage: 8
+      despawnSound: missileLarge
+      hitSound: missileLarge
+    }
+  }
+]
+researchCostMultiplier: 1.5
