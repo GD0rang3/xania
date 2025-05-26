@@ -20,7 +20,7 @@ requirements:[
 targetAir: false
 targetGround: true
 reload: 70
-range: 220
+range: 320
 ammoTypes: {
   item-curium: {
     hitEffect: massiveExplosion
@@ -45,8 +45,8 @@ ammoTypes: {
     spin: 0
     layer: 99
     ammoMultiplier: 1
-    shrinkX: -1.2
-    shrinkY: -1.5
+    shrinkX: 1.2
+    shrinkY: 1
   }
 }
 outlineColor: 101012
