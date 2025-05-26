@@ -36,6 +36,8 @@ ammoTypes: {
 type:BasicBulletType
 height: 10
 width: 10
+backColor: 597f94
+    frontColor: d7fafc
 damage: 2
 splashDamage: 6
 splashDamageRadius: 20
@@ -86,6 +88,8 @@ height: 20
 width: 3
 damage: 1
 splashDamage: 2
+backColor: bf5034
+    frontColor: faab7d
 splashDamageRadius: 14
 hitEffect: flakExplosionBig
 lifetime: 50
