@@ -81,9 +81,8 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
-    shootY: 15
-    shootX: 8
-    shootSound: plasmadrop
+    shootY: 3
+    shootSound: pulseBlast
     fragBullets: 5
     fragBullet:{
     type: BasicBulletType
@@ -92,15 +91,17 @@ weapons: [
     damage: 5
     width: 5
     height: 5
+    hitEffect: unitDrop
     }
       bullet:{
       type: ArtilleryBulletType
       pierce: false
       pierceBuilding: false
-      length: 16
-      width: 16
+      lifetime: 120
+      speed: 5
+      length: 32
+      width: 32
       damage: 45
-      shootSound: pulseBlast
       shootEffect: shootSmokeSmite
       hitSound: release
       hitEffect: instBomb
