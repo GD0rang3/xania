@@ -21,11 +21,27 @@ targetAir: false
 targetGround: true
 reload: 70
 range: 320
+shoot:{
+shots: 3
+shotDelay: 6
+}
+inaccuracy: 5
 ammoTypes: {
   item-curium: {
     hitEffect: massiveExplosion
     type: ArtilleryBulletType
     speed: 3
+    fragBullets: 3
+    fragBullet:{
+type:BasicBulletType
+height: 8
+width: 8
+damage: 6
+splashDamage: 12
+splashDamageRadius: 20
+hitEffect: flakExplosionBig
+lifetime: 10
+}
     lifetime: 15
     damage: 30
     splashDamage:15
