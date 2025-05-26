@@ -64,6 +64,44 @@ lifetime: 40
     shrinkX: 1.2
     shrinkY: 1
   }
+  item-plutonium: {
+    hitEffect: massiveExplosion
+    type: ArtilleryBulletType
+    speed: 4
+ammoMultiplier: 3
+    fragBullets: 6
+    fragBullet:{
+type:BasicBulletType
+height: 10
+width: 5
+damage: 1
+splashDamage: 2
+splashDamageRadius: 14
+hitEffect: flakExplosionBig
+lifetime: 50
+}
+    lifetime: 15
+    damage: 2
+    splashDamage:3
+    splashDamageRadius: 50
+    keepVelocity: false
+    width: 15
+    height: 15
+    trailChance: -1
+    trailColor: bf5034
+    backColor: bf5034
+    frontColor: faab7d
+    trailWidth: 2.5
+    trailLength: 25
+    lightRadius: 75
+    lightOpacity: 0.7
+    lightColor: 2e293a
+    spin: 0.6
+    layer: 99
+    ammoMultiplier: 1
+    shrinkX: 1.2
+    shrinkY: 1
+  }
 }
 outlineColor: 101012
 inaccuracy: 1
