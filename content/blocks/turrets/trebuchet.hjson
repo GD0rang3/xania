@@ -82,6 +82,8 @@ splashDamageRadius: 14
 hitEffect: flakExplosionBig
 lifetime: 50
 fragBullets: 6
+backColor: bf5034
+    frontColor: faab7d
     fragBullet:{
 type:BasicBulletType
 height: 20
@@ -92,7 +94,7 @@ backColor: bf5034
     frontColor: faab7d
 splashDamageRadius: 14
 hitEffect: flakExplosionBig
-lifetime: 50
+lifetime: 20
 }
 }
     lifetime: 15
@@ -111,7 +113,6 @@ lifetime: 50
     lightRadius: 75
     lightOpacity: 0.7
     lightColor: 2e293a
-    spin: 0.6
     layer: 99
     ammoMultiplier: 1
     shrinkX: 1.2
