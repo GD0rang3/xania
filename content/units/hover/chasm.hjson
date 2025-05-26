@@ -52,7 +52,7 @@ weapons: [
     x: 5
     y: 8
     name: chasm-laserer
-    reload: 80
+    reload: 40
     mirror: true
     alternate: true
     rotate: false
@@ -68,7 +68,7 @@ weapons: [
       sideWidth: 8
       pierce: true
       pierceCap: 10
-      damage: 125
+      damage: 85
       despawnSound: spark
       hitSound: spark
      }
