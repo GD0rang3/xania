@@ -15,6 +15,11 @@ requirements:[
   reload: 20
   targetsAir: true
   targetsGround: true
+inaccuracy: 360
+shoot:{
+shots: 30
+shotDelay: 1
+}
   ammoTypes:{
 item-curium:{
 type: ArtilleryBulletType
