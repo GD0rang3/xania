@@ -83,7 +83,19 @@ weapons: [
     rotate: true
     shootY: 3
     shootSound: pulseBlast
-    fragBullets: 5
+      bullet:{
+      type: ArtilleryBulletType
+      pierce: false
+      pierceBuilding: false
+      lifetime: 120
+      speed: 5
+      height: 17
+      width: 15
+      damage: 45
+      shootEffect: shootSmokeSmite
+      hitSound: release
+      hitEffect: instBomb
+fragBullets: 5
     fragBullet:{
     type: BasicBulletType
     speed: 3
@@ -93,18 +105,6 @@ weapons: [
     height: 5
     hitEffect: unitDrop
     }
-      bullet:{
-      type: ArtilleryBulletType
-      pierce: false
-      pierceBuilding: false
-      lifetime: 120
-      speed: 5
-      height: 32
-      width: 32
-      damage: 45
-      shootEffect: shootSmokeSmite
-      hitSound: release
-      hitEffect: instBomb
      }
   }
 ]
