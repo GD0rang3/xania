@@ -94,7 +94,7 @@ weapons: [
     y: -8
     mirror: true
     alternate: true
-    reload: 10
+    reload: 15
     rotate: true
     shootSound: mediumCannon
     inaccuracy: 6
@@ -112,6 +112,29 @@ weapons: [
       pierce: false
       shrinkX: 0
       shrinkY: 0
+      fragBullets: 20
+      fragBullet:{
+      type: BasicBulletType
+      width: 10
+      speed: 4
+      lifetime: 35
+      height: 30
+     damage: 15
+      splashDamage: 50
+      splashDamageRadius: 20
+      fragBullets: 1
+      fragBullet:{
+        type: BasicBulletType
+        width: 50
+        height: 10
+        speed: 1
+        lifetime: 40
+        pierce: true
+        pierceCap: 5
+        damage: 20
+        spin: 20
+       }
+     }
     }
   }
 
