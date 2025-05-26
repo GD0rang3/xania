@@ -51,6 +51,7 @@ weapons: [
   {
     x: 5
     y: 8
+    name: chasm-laserer
     reload: 80
     mirror: true
     alternate: true
