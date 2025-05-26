@@ -82,10 +82,6 @@ weapons: [
     rotate: false
     shootSound: missile
     inaccuracy: 12
-    shoot: {
-      shots: 8
-      shotDelay: 2
-    }
     bullet: {
       type: MissileBulletType
       speed: 3
@@ -105,13 +101,13 @@ weapons: [
     y: 7
     mirror: true
     alternate: true
-    reload: 13
+    reload: 100
     rotate: false
     shootSound: missile
     inaccuracy: 15
     shoot: {
       shots: 10
-      shotDelay: 1
+      shotDelay: 10
     }
     bullet: {
       type: MissileBulletType
@@ -135,7 +131,7 @@ weapons: [
     alternate: false
     reload: 75
     rotate: false
-    shootSound: shootArtilleryBig
+    shootSound: ShootBig
     shoot: {
       shots: 8
       shotDelay: 2
