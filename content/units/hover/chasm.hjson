@@ -80,7 +80,7 @@ weapons: [
     reload: 10
     mirror: true
     alternate: true
-    rotate: false
+    rotate: true
     shootY: 3
     shootSound: pulseBlast
     fragBullets: 5
@@ -99,7 +99,7 @@ weapons: [
       pierceBuilding: false
       lifetime: 120
       speed: 5
-      length: 32
+      height: 32
       width: 32
       damage: 45
       shootEffect: shootSmokeSmite
