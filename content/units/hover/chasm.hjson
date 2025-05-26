@@ -49,12 +49,12 @@ useEngineElevation: false
 lowAltitude: false
 weapons: [
   {
-    x: 0
-    y: 11
-    reload: 160
-    mirror: false
-    alternate: false
-    rotate: false
+    x: 5
+    y: 8
+    reload: 80
+    mirror: true
+    alternate: true
+    rotate: true
     shootSound: plasmadrop
       bullet:{
       type: LaserBulletType
@@ -62,12 +62,12 @@ weapons: [
       colors: [b3934c, e9c574, ffffff]
       pierceBuilding: false
       length: 200
-      width: 16
+      width: 8
       sideAngle: 90
-      sideWidth: 10
+      sideWidth: 8
       pierce: true
       pierceCap: 10
-      damage: 250
+      damage: 125
       despawnSound: spark
       hitSound: spark
      }
