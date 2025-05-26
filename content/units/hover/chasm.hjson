@@ -73,4 +73,35 @@ weapons: [
       hitSound: spark
      }
   }
+  {
+    x: 3
+    y: 12
+    name: chasm-fragger
+    reload: 10
+    mirror: true
+    alternate: true
+    rotate: false
+    shootSound: plasmadrop
+    fragBullets: 5
+    fragBullet:{
+    type: BasicBulletType
+    speed: 3
+    lifetime: 45
+    damage: 5
+    width: 5
+    height: 5
+    }
+      bullet:{
+      type: ArtilleryBulletType
+      pierce: false
+      pierceBuilding: false
+      length: 16
+      width: 16
+      damage: 45
+      shootSound: pulseBlast
+      shootEffect: shootSmokeSmite
+      hitSound: release
+      hitEffect: instBomb
+     }
+  }
 ]
