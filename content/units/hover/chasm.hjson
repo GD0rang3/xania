@@ -74,13 +74,15 @@ weapons: [
      }
   }
   {
-    x: 3
+    x: 8
     y: 12
     name: chasm-fragger
     reload: 10
     mirror: true
     alternate: true
     rotate: false
+    shootY: 15
+    shootX: 8
     shootSound: plasmadrop
     fragBullets: 5
     fragBullet:{
