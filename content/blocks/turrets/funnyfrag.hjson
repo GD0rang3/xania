@@ -1,0 +1,54 @@
+//get out bech
+type: ItemTurret
+  name: Funny Frag mmm
+category: turret
+description: hahhahahaba funyfunyfunny!!11
+health: 999999
+size: 1
+requirements:[
+  item-curium/999999
+  item-oganesson/999999
+  item-plutonium/999999
+  item-osmium/999999
+  ]
+  range: 500
+  reload: 20
+  targetsAir: true
+  targetsGround: true
+  ammoTypes:{
+item-curium:{
+type: ArtilleryBulletType
+hitEffect: massiveExplosion
+  shootSound: artillery
+  speed: 1
+  lifetime: 120
+  width: 100
+  height: 100
+damage: 200
+  fragBullets: 2
+  fragBullet:{
+type:BasicBulletType
+  fragBullets: 2
+  width: 50
+  height: 50
+  damage: 200
+  speed: 4
+  lifetime: 50
+  fragBullet:{
+width: 25
+  height: 25
+  damage: 100
+  speed: 4
+  lifetime: 25
+  fragBullets: 2
+  fragBullet:{
+ height: 12
+   width: 12
+   damage: 50
+   lifetime: 12
+   speed: 4
+}
+}
+}
+}
+}
