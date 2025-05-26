@@ -1,0 +1,8 @@
+type: liquid
+name: Frozen Water
+description: cold water
+color: 16D3FE
+viscosity: 0.01
+flmmability: 0
+explosivenss: 0
+temperature: 0.15

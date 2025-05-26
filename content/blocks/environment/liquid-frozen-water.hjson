@@ -1,0 +1,7 @@
+type: Floor
+name: Frosted Water
+variants: 3
+albedo: 0.9
+isLiquid: true
+liquidDrop: frosted-water
+cacheLayer: water

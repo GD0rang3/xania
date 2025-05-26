@@ -87,12 +87,12 @@ weapons: [
       type: ArtilleryBulletType
       pierce: false
       pierceBuilding: false
-      lifetime: 70
+      lifetime: 120
       speed: 5
-      height: 34
-      width: 24
+      height: 17
+      width: 15
       damage: 45
-      shootEffect: shootTitan
+      shootEffect: shootSmokeSmite
       hitSound: release
       hitEffect: instBomb
 fragBullets: 5
@@ -103,7 +103,7 @@ fragBullets: 5
     damage: 5
     width: 5
     height: 5
-    hitEffect: spawnShockwave
+    hitEffect: unitDrop
     }
      }
   }

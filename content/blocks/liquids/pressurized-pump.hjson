@@ -1,0 +1,13 @@
+type: Pump
+name: Pressurized Pump
+description: Slowly pumps liquid from liquid tiles.
+size: 1
+category: production
+squareSprite: false
+research: core-frost
+requirements: [
+  item-oganesson/18
+  item-plutonium/12
+]
+pumpAmount: 0.05
+researchCostMultiplier: 0.5
