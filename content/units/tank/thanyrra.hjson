@@ -12,7 +12,7 @@ requirements: [
  item-curium/1
 ]
 } 
-rotateSpeed: 6
+rotateSpeed: 3
 health: 23000
 armor: 5
 itemCapacity: 0
@@ -28,12 +28,13 @@ treadRects: [
 weapons: [
   {
     x: 0
-    y: 16
+    y: 6
     name: thanyrra-weapon
     reload: 160
     rotate: true
     mirror: false
     shootSound: pulseBlast
+    inaccuracy: 15
       shoot:{
       shots: 10
         shotDelay: 1
@@ -47,7 +48,7 @@ weapons: [
       fragBullets: 2
       fragBullet: {
         type: LightningBulletType
-        lightningLength: 100
+        lightningLength: 10
         damage: 85
         pierce: true
         pierceCap: 5
