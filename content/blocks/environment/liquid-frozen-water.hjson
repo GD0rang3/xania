@@ -5,3 +5,4 @@ albedo: 0.9
 isLiquid: true
 liquidDrop: frosted-water
 cacheLayer: water
+speedMultiplier: 0.8
