@@ -47,6 +47,7 @@ weapons: [
       width: 35
       height: 35
       damage: 850000
+      layer: 99
       fragBullets: 5
       fragBullet:{
         type: BasicBulletType
@@ -56,6 +57,7 @@ weapons: [
         speed: 2
         lifetime: 80
         damage: 100000
+        layer: 99
       }
     }
   }
@@ -80,6 +82,7 @@ weapons: [
       lifetime: 300
       damage: 120000
       width: 20
+      layer: 99
       height: 20
       sprite: jodio-joestar-long
       pierce: true
