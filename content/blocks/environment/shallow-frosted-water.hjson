@@ -1,6 +1,6 @@
 type: Floor
 name: Frosted Water
-variants: 1
+variants: 0
 albedo: 0.9
 isLiquid: true
 liquidDrop: frosted-water
