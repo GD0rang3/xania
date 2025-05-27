@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Glass Fiber Synthesizer
+category: crafting
+research: {
+parent: radioactive-decay-chamber
+requirements: [
+ item-curium/420
+ item-plutonium/320
+ item-oganesson/130
+]
+}  
+health: 160
+size: 3
+itemCapacity: 20
+requirements: [
+   item-curium/35
+  item-plutonium/20
+  item-oganesson/15
+]
+outputItem: item-glass-fiber
+craftTime: 25
+consumes: {
+ liquid: liquid-frosted-water/0.2
+ items: [
+  item-curium/1
+  item-plutonium/2
+ ]
+power: 1
+}
