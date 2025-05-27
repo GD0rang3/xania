@@ -1,5 +1,5 @@
 type: OverflowGate
-name: Pressurized Overflow Gate
+name: Pressurized Underflow Gate
 invert: true
 description: Outputs items to the front if the side paths are blocked.
 category: distribution
