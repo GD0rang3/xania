@@ -1,0 +1,14 @@
+type: OverflowGate
+name: Pressurized Overflow Gate
+invert: true
+description: Outputs items to the front if the side paths are blocked.
+category: distribution
+research: {
+parent: pressurized-overflow-gate
+requirements: [
+  item-curium/25
+]
+  }
+requirements:[
+  item-curium/5
+  ]
