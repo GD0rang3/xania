@@ -1,0 +1,7 @@
+type: mech
+name: Pick Up Unit
+payloadCapacity: 64
+speed: 5
+drag: 0.05
+accel: 0.01
+health: 50

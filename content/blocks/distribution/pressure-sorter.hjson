@@ -1,0 +1,12 @@
+type: sorter
+name: Pressurized Sorter
+category: distribution
+research: {
+parent: pressurized-router
+requirements: [
+  item-curium/25
+]
+  }
+requirements:[
+  item-curium/5
+  ]

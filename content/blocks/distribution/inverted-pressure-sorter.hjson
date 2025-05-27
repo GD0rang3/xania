@@ -1,0 +1,13 @@
+category: distribution
+type: sorter
+name: Pressure Sorter
+invert: true
+research: {
+    parent: pressure-sorter
+    requirements: [
+        item-curium/50
+    ]
+}
+requirements: [
+ item-curium/1
+]
