@@ -1,0 +1,7 @@
+name: Glass fiber 
+description: a
+hardness: 2
+cost: 1
+color: e0fffd
+research: item-plutonium
+hiddenOnPlanets: [serpulo, erekir]
