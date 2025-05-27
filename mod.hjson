@@ -1,8 +1,9 @@
 name: xania
 displayName: Xania
-subtitle: " greatest mod ever, hehe "
-description: " Welcome to Xania.. a planet waiting for you with a warm welcome. (pun intended)  It's depressing and far away from the sun... Many have tried to conquer it to no avail.  The surface of the planet is infested with remains from past expeditions... powerful mechanical units that became sentient... and so much more... "
-Will you be able to conquer the freezing cold?"
-author: " Ion, Q8er2y, GamerMertcan, YAYUWA "
-minGameVersion: 146
-version : " v0.992 "
+subtitle: "greatest mod ever, hehe"
+description: "[yellow]Welcome to[cyan] Xania, [white]a white, cold and depressing planet far away from the sun.
+Many times this planet was attempted to conquer but [gray]the creatures on there are on a different level...
+[white]Will [red]you [white]be able to conquer the freezing cold?"
+  author: "Ion, Q8er2y, GamerMertcan, YAYUWA+"
+  minGameVersion: 146
+  version : "v0.87"
