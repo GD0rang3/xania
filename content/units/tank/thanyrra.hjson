@@ -1,6 +1,6 @@
 type: tank
 name: Thanyrra
-description: Brings storms, devastation and utter obliteration to anyone in your way.
+description: Brings devastation and utter obliteration to anyone in your way.
 treadPullOffset: 3
 omniMovement: false
 faceTarget: false
@@ -30,20 +30,23 @@ weapons: [
     x: 0
     y: 6
     name: thanyrra-weapon
-    reload: 160
+    reload: 100
     rotate: true
     mirror: false
     shootSound: pulseBlast
     inaccuracy: 2
     bullet: {
       type:BasicBulletType
-      pierce: false
-      pierceBuilding: false
-      length: 20
-      width: 20
-      damage: 30
-      speed: 2
-      lifetime: 20
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 10
+      height: 40
+      width: 40
+      damage: 70
+      splashDamage: 79
+      splashDamageRadius: 100
+      speed: 4
+      lifetime: 30
       despawnSound: missileLarge
       hitSound: missileLarge
     }
@@ -52,41 +55,22 @@ weapons: [
     x: 0
     y: 6
     name: thanyrra-weapon
-    reload: 160
+    reload: 100
     rotate: true
     mirror: false
     shootSound: pulseBlast
     inaccuracy: 2
     bullet: {
       type:BasicBulletType
-      pierce: false
-      pierceBuilding: false
-      length: 20
-      width: 20
-      damage: 30
-      speed: 2
-      lifetime: 40
-      despawnSound: missileLarge
-      hitSound: missileLarge
-    }
-  }
-  {
-    x: 0
-    y: 6
-    name: thanyrra-weapon
-    reload: 160
-    rotate: true
-    mirror: false
-    shootSound: pulseBlast
-    inaccuracy: 2
-    bullet: {
-      type:BasicBulletType
-      pierce: false
-      pierceBuilding: false
-      length: 20
-      width: 20
-      damage: 30
-      speed: 2
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 10
+      height: 40
+      width: 40
+      damage: 70
+      splashDamage: 79
+      splashDamageRadius: 100
+      speed: 4
       lifetime: 60
       despawnSound: missileLarge
       hitSound: missileLarge
@@ -96,20 +80,23 @@ weapons: [
     x: 0
     y: 6
     name: thanyrra-weapon
-    reload: 160
+    reload: 100
     rotate: true
     mirror: false
     shootSound: pulseBlast
     inaccuracy: 2
     bullet: {
       type:BasicBulletType
-      pierce: false
-      pierceBuilding: false
-      length: 20
-      width: 20
-      damage: 30
-      speed: 2
-      lifetime: 80
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 10
+      height: 40
+      width: 40
+      damage: 70
+      splashDamage: 79
+      splashDamageRadius: 100
+      speed: 4
+      lifetime: 90
       despawnSound: missileLarge
       hitSound: missileLarge
     }
@@ -118,20 +105,73 @@ weapons: [
     x: 0
     y: 6
     name: thanyrra-weapon
-    reload: 160
+    reload: 100
     rotate: true
     mirror: false
     shootSound: pulseBlast
     inaccuracy: 2
     bullet: {
       type:BasicBulletType
-      pierce: false
-      pierceBuilding: false
-      length: 20
-      width: 20
-      damage: 30
-      speed: 2
-      lifetime: 100
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 10
+      height: 40
+      width: 40
+      damage: 70
+      splashDamage: 79
+      splashDamageRadius: 100
+      speed: 4
+      lifetime: 120
+      despawnSound: missileLarge
+      hitSound: missileLarge
+    }
+  }
+  {
+    x: 0
+    y: 6
+    name: thanyrra-weapon
+    reload: 100
+    rotate: true
+    mirror: false
+    shootSound: pulseBlast
+    inaccuracy: 2
+    bullet: {
+      type:BasicBulletType
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 10
+      height: 40
+      width: 40
+      damage: 70
+      splashDamage: 79
+      splashDamageRadius: 100
+      speed: 4
+      lifetime: 150
+      despawnSound: missileLarge
+      hitSound: missileLarge
+    }
+  }
+  {
+    x: 0
+    y: 6
+    name: thanyrra-weapon
+    reload: 100
+    rotate: true
+    mirror: false
+    shootSound: pulseBlast
+    inaccuracy: 2
+    bullet: {
+      type:BasicBulletType
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 10
+      height: 40
+      width: 40
+      damage: 70
+      splashDamage: 79
+      splashDamageRadius: 100
+      speed: 4
+      lifetime: 180
       despawnSound: missileLarge
       hitSound: missileLarge
     }
