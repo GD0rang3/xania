@@ -3,6 +3,6 @@ name: Frosted Water
 variants: 0
 albedo: 0.9
 isLiquid: true
-liquidDrop: frosted-water
+liquidDrop: liquid-frosted-water
 cacheLayer: water
 speedMultiplier: 0.8
