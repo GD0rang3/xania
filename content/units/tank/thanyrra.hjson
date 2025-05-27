@@ -44,8 +44,8 @@ weapons: [
       pierceCap: 10
       height: 40
       width: 40
-      damage: 70
-      splashDamage: 79
+      damage: 200
+      splashDamage: 120
       splashDamageRadius: 100
       speed: 4
       lifetime: 30
@@ -70,7 +70,7 @@ shootY: 5
       pierceCap: 10
       height: 35
       width: 35
-      damage: 60
+      damage: 100
       splashDamage: 45
       splashDamageRadius: 20
       speed: 4
@@ -96,7 +96,7 @@ shootY: 5
       pierceCap: 10
       height: 30
       width: 30
-      damage: 30
+      damage: 50
       splashDamage: 25
       splashDamageRadius: 15
       speed: 4
@@ -122,7 +122,7 @@ shootY: 5
       pierceCap: 10
       height: 25
       width: 25
-      damage: 15
+      damage: 35
       splashDamage: 15
       splashDamageRadius: 15
       speed: 4
