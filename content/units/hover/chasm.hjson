@@ -64,11 +64,11 @@ weapons: [
       pierceBuilding: false
       length: 200
       width: 8
-      sideAngle: 90
+      sideAngle: 0
       sideWidth: 8
       pierce: true
       pierceCap: 10
-      damage: 85
+      damage: 120
       despawnSound: spark
       hitSound: spark
      }
@@ -92,7 +92,7 @@ weapons: [
       height: 17
       width: 15
       damage: 120
-      shootEffect: shootSmokeSmite
+      shootEffect: shootTitan
       hitSound: release
       hitEffect: instBomb
 fragBullets: 5
@@ -104,7 +104,8 @@ fragBullets: 5
     width: 15
     height: 20
     homingPower: 0.4
-    hitEffect: unitDrop
+    hitEffect: blastExplosion
+    despawnEffect: unitDrop
     }
      }
   }
