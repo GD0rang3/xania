@@ -17,7 +17,7 @@ item-plutonium/5400
 ]
 } 
 outlineColor: 101012
-speed: 0.6
+speed: 1.2
 rotateSpeed: 4
 accel: 2
 groundLayer: 90
@@ -91,7 +91,7 @@ weapons: [
       speed: 5
       height: 17
       width: 15
-      damage: 45
+      damage: 120
       shootEffect: shootSmokeSmite
       hitSound: release
       hitEffect: instBomb
@@ -100,9 +100,10 @@ fragBullets: 5
     type: BasicBulletType
     speed: 3
     lifetime: 45
-    damage: 5
-    width: 5
-    height: 5
+    damage: 10
+    width: 15
+    height: 20
+    homingPower: 0.4
     hitEffect: unitDrop
     }
      }
