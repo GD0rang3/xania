@@ -29,6 +29,7 @@ weapons: [
   {
     x: 0
     y: 6
+    shootY: 5
     name: thanyrra-weapon
     reload: 100
     rotate: true
@@ -54,6 +55,7 @@ weapons: [
   {
     x: 0
     y: 6
+shootY: 5
     name: thanyrra-weapon
     reload: 100
     rotate: true
@@ -79,6 +81,7 @@ weapons: [
   {
     x: 0
     y: 6
+shootY: 5
     name: thanyrra-weapon
     reload: 100
     rotate: true
@@ -106,6 +109,7 @@ weapons: [
     y: 6
     name: thanyrra-weapon
     reload: 100
+shootY: 5
     rotate: true
     mirror: false
     shootSound: pulseBlast
@@ -132,6 +136,7 @@ weapons: [
     name: thanyrra-weapon
     reload: 100
     rotate: true
+shootY: 5
     mirror: false
     shootSound: pulseBlast
     inaccuracy: 2
@@ -157,6 +162,7 @@ weapons: [
     name: thanyrra-weapon
     reload: 100
     rotate: true
+shootY: 5
     mirror: false
     shootSound: pulseBlast
     inaccuracy: 2
