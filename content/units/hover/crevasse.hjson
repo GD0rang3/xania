@@ -86,6 +86,16 @@ weapons: [
         pierceCap: 2
       shrinkX: 0
       shrinkY: 0
+      fragBullets: 1
+      fragBullet:{
+      width: 12
+      height: 20
+      damage: 20
+      type: BasicBulletType
+      homingPower: 1.4
+      speed: 5
+      lifetime: 50
+      }
     }
   }
 {
