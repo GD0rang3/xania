@@ -1,0 +1,36 @@
+type: Reconstructor
+name: Molecular Reassembly Unit
+description: Breaks down units and uses great amounts of items and energy to recreate them on a larger scale
+size: 7
+health: 400
+configurable: false
+requirements: [
+  item-curium/600
+  item-oganesson/500
+  item-osmium/200
+  item-plutonium/50
+]
+constructTime: 800
+category: units
+upgrades: [
+  [ split, chasm ]
+]
+consumes: {
+  power: 4
+  items: [
+  item-curium/680
+  item-oganesson/580
+  item-plutonium/600
+  item-osmium/450
+  ]
+}
+research: {
+parent: reionization-chanber
+requirements: [
+ item-curium/14500
+  item-oganesson/7500
+  item-plutonium/7000
+  item-osmium/5000
+]
+}  
+researchCostMultiplier: 0.5
