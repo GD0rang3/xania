@@ -15,5 +15,5 @@ research: {
 }
 squareSprite: false
 range: 4
-speed: 1.2
+speed: 3
 researchCostMultiplier: 0.5
