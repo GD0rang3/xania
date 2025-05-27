@@ -1,0 +1,95 @@
+type: flying
+name: porco dio
+description: la madonna santa!
+shadowElevation: 0.3
+drag: 0.08
+research: {
+parent: chasm
+requirements: [
+ item-curium/7500000
+ item-oganesson/5400000
+item-plutonium/2300000
+  item-osmium/3000000
+]
+} 
+outlineColor: 101012
+speed: 2
+rotateSpeed: 3.5
+accel: 0.1
+groundLayer: 90
+health: 1600000
+armor: 50
+hitSize: 24
+canDrown: false
+researchCostMultiplier: 1.5
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+  {
+    name: jodio-joestar-weapon2
+    x: 7
+    y: 3
+    reload: 130
+    mirror: true
+    alternate: true
+    rotate: true
+    shootY: 2
+    shootSound: artillery
+    recoil: 8
+      bullet:{
+      type: ArtilleryBulletType
+      sprite: jodio-joestar-big
+      speed: 3
+      lifetime: 500
+      pierce: false
+      pierceBuilding: false
+      width: 35
+      height: 35
+      damage: 850000
+      fragBullets: 5
+      fragBullet:{
+        type: BasicBulletType
+        sprite: jodio-joestar-frag
+        width: 30
+        height: 30
+        speed: 2
+        lifetime: 80
+        damage: 100000
+      }
+    }
+  }
+  {
+    name: jodio-joestar-weapon1
+    x: 4
+    y: -2
+    mirror: true
+    alternate: true
+    reload: 25
+    rotate: true
+    shootY: 1
+    shootSound: dullExplosion
+    inaccuracy: 12
+    shoot: {
+      shots: 4
+      shotDelay: 2
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 8
+      lifetime: 300
+      damage: 120000
+      width: 20
+      height: 20
+      sprite: jodio-joestar-long
+      pierce: true
+        pierceCap: 20
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+     }
+    }
+  }
+
+]
