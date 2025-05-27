@@ -17,7 +17,7 @@ requirements: [
   item-plutonium/20
   item-oganesson/15
 ]
-outputItem: item-glass-fiber
+outputItem: item-glass-fiber/3
 craftTime: 25
 consumes: {
  liquid: liquid-frosted-water/0.2
@@ -25,5 +25,5 @@ consumes: {
   item-curium/1
   item-plutonium/2
  ]
-power: 1
+power: 2
 }
