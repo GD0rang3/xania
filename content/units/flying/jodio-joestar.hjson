@@ -28,8 +28,8 @@ lowAltitude: false
 weapons: [
   {
     name: jodio-joestar-weapon2
-    x: 7
-    y: 3
+    x: 12
+    y: 4
     reload: 130
     mirror: true
     alternate: true
@@ -61,8 +61,8 @@ weapons: [
   }
   {
     name: jodio-joestar-weapon1
-    x: 4
-    y: -2
+    x: 8
+    y: -4
     mirror: true
     alternate: true
     reload: 25
