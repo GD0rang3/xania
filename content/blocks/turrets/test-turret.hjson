@@ -1,0 +1,54 @@
+type: ItemTurret
+name: Test Turret
+category: turret
+reload: 15
+size: 1
+squareSprite: true
+health: 500
+armor: 10
+shootSound: shootTitan
+targetAir: true
+targetGround: true
+rotateSpeed: 10
+ammoTypes: {
+  item-curium:{
+  type: MissleBulletType
+  sprite: large-orb
+  width: 5
+  height: 5
+  hitSize: 2
+  pierce: true
+  pierceCap: 10
+  pierceBuilding: true
+  damage: 10000
+  lifetime: 50
+  homingPower: 50
+  homingRange: 50
+  trailColor: ff1100
+  trailChance: 0.1
+  trailEffect: [steam, oily
+    ]
+  }
+}
+drawer: {
+ type: DrawTurret
+ basePrefix: turret-
+ parts: [
+  {
+   type: RegionPart
+   mirror: true
+   suffix: -weapon-l
+   progress: recoil
+   moveY: -2
+   under: true
+  }
+  {
+   type: RegionPart
+   mirror: true
+   suffix: -weapon-r
+   progress: recoil
+   moveY: -2
+   under: true
+  }
+ ]
+}
