@@ -3,8 +3,11 @@ name: Fibrous Extractor
 description: Extracts ores from the ground quicker thanks to glass fiber-reinforced drills.
 size: 3
 category: production
-hasLiquids: true
-liquid: liquid-frosted-water/0.2
+consumes:{
+liquids:[
+liquid-frosted-water/0.2
+]
+}
 research: {
   parent: rupture-drill
 requirements:[
