@@ -37,17 +37,9 @@ drawer: {
   {
    type: RegionPart
    mirror: true
-   suffix: -weapon-l
+   suffix: -weapon
    progress: recoil
-   moveY: -2
-   under: true
-  }
-  {
-   type: RegionPart
-   mirror: true
-   suffix: -weapon-r
-   progress: recoil
-   moveY: -2
+   moveY: -2.5
    under: true
   }
  ]
