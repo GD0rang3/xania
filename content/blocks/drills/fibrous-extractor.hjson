@@ -1,0 +1,28 @@
+type: Drill
+name: Fibrous Extractor
+description: Extracts ores from the ground quicker thanks to glass fiber-reinforced drills.
+size: 3
+category: production
+hasLiquids: true
+liquid: liquid-frosted-water/0.2
+research: {
+  parent: rupture-drill
+requirements:[
+item-curium/350
+item-plutonium/250
+item-oganesson/100
+item-glass-fiber/50
+]
+    }
+hardnessDrillMultiplier: 43
+hasPower: false
+tier: 4
+shake: 0.5
+itemCapacity: 15
+researchCostMultiplier: 0.5
+requirements: [
+item-curium/25
+item-plutonium/15
+item-glass-fiber/20
+]
+squareSprite: false
