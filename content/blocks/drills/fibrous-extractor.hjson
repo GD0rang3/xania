@@ -18,6 +18,7 @@ item-oganesson/100
 item-glass-fiber/50
 ]
     }
+drawRim: true
 hardnessDrillMultiplier: 43
 hasPower: false
 tier: 4
