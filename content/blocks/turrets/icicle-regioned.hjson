@@ -82,10 +82,12 @@ drawer: {
       under: false
       progress:{
       type: recoil
-      ops:{
+      ops:[
+       {
       op: curve
       interp: swingOut
       }
+      ]
       }
       moveY: -3
       heatProgress: recoil
@@ -97,10 +99,12 @@ drawer: {
       under: false
       progress:{
       type: warmup
-       ops:{
+       ops:[
+       {
        op: curve
        interp: bounceOut
        }
+       ]
        }
       moveRot: 15
       moveY: -2
