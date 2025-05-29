@@ -3,6 +3,7 @@ category: defense
 name: Oganesson Wall
 health: 440
 size: 1
+chanceDeflect: 10
 research: {
     parent: curium-wall-large
     requirements: [
@@ -10,5 +11,5 @@ research: {
     ]
 }
 requirements: [
-    item-oganesson/6
+    item-oganesson/20
 ]
