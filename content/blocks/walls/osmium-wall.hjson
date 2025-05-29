@@ -1,7 +1,7 @@
 type: wall
 category: defense
 name: Osmium Wall
-health: 550
+health: 625
 size: 1
 research: {
     parent: oganesson-wall-large
