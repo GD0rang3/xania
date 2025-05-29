@@ -85,7 +85,7 @@ drawer: {
       ops:[
        {
       op: curve
-      interp: swingOut
+      interp: elastic
       }
       ]
       }
@@ -102,7 +102,7 @@ drawer: {
        ops:[
        {
        op: curve
-       interp: bounceOut
+       interp: smooth2
        }
        ]
        }
