@@ -4,7 +4,7 @@ description: Fires alternating, powerful rounds at enemies, piercing them. Speci
 size: 2
 squareSprite: false
 reload: 12
-heatColor: cd8d4a
+heatColor: faae5c
 
 researchCostMultiplier: 0.5
 
@@ -21,7 +21,7 @@ shoot: {
   type: ShootAlternate
   spread: 8
   shots: 2
-  shotDelay: 6
+  shotDelay: 3
 }
 range: 120
 shootSound: plasmadrop
@@ -29,11 +29,11 @@ ammoTypes: {
   item-curium: {
     reloadMultiplier: 0.66666666666666
     hitEffect: plasticExplosion
-    despawnHit: true
+    despawnEffect: unitDrop
     type: BasicBulletType
-    speed: 12
+    speed: 6
     lifetime: 15
-    damage: 12
+    damage: 9
     pierce: true
     pierceCap: 4
     keepVelocity: false
@@ -51,6 +51,21 @@ ammoTypes: {
     spin: 0
     layer: 99
     ammoMultiplier: 1
+    fragBullets: 5
+    shootEffect: casing2
+    fragBullet:{
+     type: BasicBulletType
+     speed: 2
+     damage: 1
+     lifetime: 40
+     homingPower: 1
+     width: 6
+     height: 6
+     frontColor: bcf0f7
+     backColor: 6c81a3
+     despawnEffect: unitDrop
+     hitEffect: blastExplosion
+    }
   }
 }
 outlineColor: 101012
@@ -67,6 +82,7 @@ drawer: {
       under: false
       progress: recoil
       moveY: -3
+      heatProgress: recoil
     }
         {
       type: RegionPart
