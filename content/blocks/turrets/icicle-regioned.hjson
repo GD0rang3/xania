@@ -80,7 +80,13 @@ drawer: {
       mirror: true
       alternate: true
       under: false
-      progress: recoil
+      progress:{
+      type: recoil
+      ops:{
+      op: curve
+      interp: swingOut
+      }
+      }
       moveY: -3
       heatProgress: recoil
     }
@@ -89,7 +95,13 @@ drawer: {
       suffix: -wing
       mirror: true
       under: false
-      progress: warmup
+      progress:{
+      type: warmup
+       ops:{
+       op: curve
+       interp: bounceOut
+       }
+       }
       moveRot: 15
       moveY: -2
       moveX: 1
