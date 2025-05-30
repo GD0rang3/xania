@@ -14,7 +14,7 @@ legCount: 4
 legLength: 4
 itemCapacity: 25
 outlineColor: 101012
-hitSize: 5
+hitSize: 2
 researchCostMultiplier: 1.5
 weapons: [
 {
