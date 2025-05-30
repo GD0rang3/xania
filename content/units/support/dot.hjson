@@ -41,8 +41,8 @@ weapons: [
       pierce: true
       pierceBuilding: false
       pierceCap: 1
-      chargeEffect: greenCloud
-      shootEffect: shootHeal
+      chargeEffect: greenLaserChargeSmall
+      shootEffect: greenCloud
       smokeEffect: shootBigSmoke
       hitColor: 85c278
     }
