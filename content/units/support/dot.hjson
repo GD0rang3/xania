@@ -1,21 +1,16 @@
-/*type: legs
-name: Luminary
+type: legs
+name: Dot
 description: Capable of building and automatically repairing damaged structures. Equipped with a small healing beam.
-speed: 0.6
+speed: 1.4
 health: 170
 controller: RepairAI
 commands: [move, repair, rebuild, assist]
 armor: 1
 flying: false
-legExtension: -2.5
 buildSpeed: 0.6
-legMoveSpace: 0.9
 hovering: false
 isEnemy: false
-legCount: 6
-legLength: 8
-legSpeed: 0.23
-legForwardScl: 0.56
+legCount: 4
 itemCapacity: 25
 outlineColor: 44413c
 hitSize: 6
@@ -54,8 +49,8 @@ weapons: [
   }
 ]
 research: {
-  parent: 10j-02-support-mounting-bay
+  parent: curium-unit-assembly
   objectives: [
-    10j-02-support-mounting-bay
+curium-unit-assembly
   ]
-}*/
+}
