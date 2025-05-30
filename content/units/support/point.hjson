@@ -11,7 +11,7 @@ buildSpeed: 0.8
 hovering: false
 isEnemy: false
 legCount: 6
-legLength: 12
+legLength: 6
 itemCapacity: 40
 outlineColor: 101012
 hitSize: 8
