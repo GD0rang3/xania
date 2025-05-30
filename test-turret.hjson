@@ -1,0 +1,81 @@
+type: ItemTurret
+name: Test Turret
+description: Fires alternating, powerful rounds at enemies, piercing them. Specialized at annihilating swarms. Less efficient against single targets.
+size: 6
+squareSprite: false
+reload: 240
+shootSound: titanExplosion
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+category: turret
+research: core-frost
+requirements: [
+item-curium/80
+]
+range: 120
+shoot: {
+  type: ShootAlternate
+  spread: 7
+  shots: 4
+  shotDelay: 20
+}
+ammoTypes: {
+  item-curium: {
+    hitEffect: plasticExplosion
+    despawnEffect: unitDrop
+    type: BasicBulletType
+    speed: 6
+    lifetime: 40
+    damage: 1000
+    pierce: true
+    pierceCap: 40
+    keepVelocity: false
+    width: 8
+    height: 32
+    trailChance: -1
+    trailColor: 73c714
+    trailWidth: 5
+    trailLength: 70
+    ammoMultiplier: 1
+    fragBullets: 50
+    shootEffect: casing2
+    fragBullet:{
+     type: BasicBulletType
+     speed: 200
+     damage: 1000
+     lifetime: 40000
+     homingPower: 10
+     width: 6
+     height: 6
+     frontColor: bcf0f7
+     backColor: 6c81a3
+     despawnEffect: unitDrop
+     hitEffect: blastExplosion
+    }
+  }
+}
+inaccuracy: 0
+drawer: {
+  type: DrawTurret
+  baseSuffix: -base
+  parts: [
+    {
+      type: RegionPart
+      suffix: -weapon-l
+      mirror: false
+      alternate: true
+      under: true
+      progress: recoil
+      moveY: -30
+    }
+    {
+      type: RegionPart
+      suffix: -weapon-r
+      mirror: false
+      alternate: true
+      under: true
+      progress: recoil
+      moveY: -30
+    }
+  ]
+}
