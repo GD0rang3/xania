@@ -1,0 +1,6 @@
+name: Mendelevium
+cost: 1
+color: e83131
+hardness: 4
+research: item-osmium
+hiddenOnPlanets: [serpulo, erekir]
