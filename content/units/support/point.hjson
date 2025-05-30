@@ -1,0 +1,57 @@
+type: legs
+name: Point
+description: Capable of building and automatically repairing damaged structures. Equipped with a small healing beam.
+speed: 1.2
+health: 270
+controller: RepairAI
+commands: [move, repair, rebuild, assist]
+armor: 2
+flying: false
+buildSpeed: 0.8
+hovering: false
+isEnemy: false
+legCount: 6
+legLength: 12
+itemCapacity: 40
+outlineColor: 101012
+hitSize: 8
+researchCostMultiplier: 1.5
+weapons: [
+{
+  x: 0
+    y: 4
+    reload: 94
+    mirror: false
+    rotate: false
+    shootSound: laser
+    inaccuracy: 5
+    shoot: {
+      firstShotDelay: 60
+      shotDelay: 6
+      shots: 5
+    }
+    chargeSound: short-laser-charge
+    bullet: {
+      type: LaserBulletType
+      colors: [85c278, 9be98b, ffffff]
+      width: 4
+      length: 108
+      damage: 12
+      healPercent: 3
+      collidesTeam: true
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 1
+      chargeEffect: greenLaserChargeSmall
+      shootEffect: greenCloud
+      smokeEffect: shootBigSmoke
+      hitColor: 85c278
+    }
+  }
+]
+research: {
+  parent: dot
+  objectives: [
+dot
+  ]
+}
