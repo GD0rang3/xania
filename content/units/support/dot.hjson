@@ -12,8 +12,8 @@ hovering: false
 isEnemy: false
 legCount: 4
 itemCapacity: 25
-outlineColor: 44413c
-hitSize: 6
+outlineColor: 101012
+hitSize: 5
 researchCostMultiplier: 1.5
 weapons: [
 {
@@ -41,9 +41,9 @@ weapons: [
       pierce: true
       pierceBuilding: false
       pierceCap: 1
-      chargeEffect: lightningCharge
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
+      chargeEffect: greenCloud
+      shootEffect: shootHeal
+      smokeEffect: shootBigSmoke
       hitColor: 85c278
     }
   }
