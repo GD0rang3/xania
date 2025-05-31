@@ -43,7 +43,7 @@ weapons: [
   {
         name: comma-gun
     x: 3
-    y: 2
+    y: 4
     shootY: 2
     reload: 20
     mirror: true
