@@ -14,7 +14,7 @@ isEnemy: false
 mineSpeed: 4
 mineTier: 2
 buildSpeed: 1
-drag: 1
+drag: 0.1
 itemCapacity: 25
 alwaysUnlocked: true
 outlineColor: 101012
@@ -28,7 +28,7 @@ abilities: [
     effect: missileTrailShort
     x: 0
     y: -5
-    interval: 4
+    interval: 1
     minVelocity: 0.4
   }
 ]
