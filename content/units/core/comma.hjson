@@ -34,7 +34,7 @@ weapons: [
   {
         name: comma-gun
     x: 3
-    y: 0
+    y: 2
     shootY: 2
     reload: 20
     mirror: true
@@ -50,7 +50,7 @@ weapons: [
       hitColor: 79d4e8
       buildingDamageMultiplier: 0.01
       speed: 5
-      lifetime: 25
+      lifetime: 35
       damage: 12
       splashDamage: 5
       splashDamageRadius: 30
@@ -59,7 +59,7 @@ weapons: [
       pierceBuilding: false
       pierce: false
       trailChance: 0.5
-      trailEffect: vapor
+      trailEffect: fireballsmoke
       trailColor: b2d2d9
       shootEffect: none
       smokeEffect: {
