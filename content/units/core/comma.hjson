@@ -5,6 +5,7 @@ name: Comma
 description: Defends the Frost core. Builds structures and mines ores.
 health: 135
 armor: 4
+accel: 0.2
 mineFloor: true
 mineWalls: true
 speed: 3.4
@@ -13,20 +14,29 @@ isEnemy: false
 mineSpeed: 4
 mineTier: 2
 buildSpeed: 1
-drag: 0.5
+drag: 1
 itemCapacity: 25
 alwaysUnlocked: true
 outlineColor: 101012
-
-      trailChance: -1
-      trailEffect: dynamicSpikes
+      trailColor: 76d6e3
+      trailLength: 20
       buildingDamageMultiplier: 0.01
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -5
+    interval: 4
+    minVelocity: 0.4
+  }
+]
 engines:[
 {
 x: 0
 y: -5
-radius: 5
-rotation: -90
+radius: 1.5
 }
 ]
 weapons: [
