@@ -6,14 +6,19 @@ squareSprite: false
 reload: 12
 heatColor: faae5c
 
-researchCostMultiplier: 0.5
+
 
 recoils: 2
 
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
 category: turret
-research: core-frost
+research: {
+parent: core-frost
+requirements:[
+item-curium/120
+]
+}
 requirements: [
 item-curium/80
 ]
