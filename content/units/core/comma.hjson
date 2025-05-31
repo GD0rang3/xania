@@ -1,5 +1,4 @@
 type: flying
-hovering: true
 rotateSpeed: 7
 groundLayer: 99
 name: Comma
