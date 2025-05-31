@@ -1,46 +1,81 @@
 type: ItemTurret
 name: Test Turret
+description: Fires alternating, powerful rounds at enemies, piercing them. Specialized at annihilating swarms. Less efficient against single targets.
+size: 6
+squareSprite: false
+reload: 240
+shootSound: titanExplosion
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
 category: turret
-reload: 15
-size: 1
-squareSprite: true
-health: 500
-armor: 10
-shootSound: shootTitan
-targetAir: true
-targetGround: true
-rotateSpeed: 10
+research: core-frost
+requirements: [
+item-curium/80
+]
+range: 120
+shoot: {
+  type: ShootAlternate
+  spread: 7
+  shots: 4
+  shotDelay: 20
+}
 ammoTypes: {
-  item-curium:{
-  type: MissleBulletType
-  sprite: large-orb
-  width: 5
-  height: 5
-  hitSize: 2
-  pierce: true
-  pierceCap: 10
-  pierceBuilding: true
-  damage: 10000
-  lifetime: 50
-  homingPower: 50
-  homingRange: 50
-  trailColor: ff1100
-  trailChance: 0.1
-  trailEffect: [steam, oily
-    ]
+  item-curium: {
+    hitEffect: plasticExplosion
+    despawnEffect: unitDrop
+    type: BasicBulletType
+    speed: 6
+    lifetime: 40
+    damage: 1000
+    pierce: true
+    pierceCap: 40
+    keepVelocity: false
+    width: 8
+    height: 32
+    trailChance: -1
+    trailColor: 73c714
+    trailWidth: 5
+    trailLength: 70
+    ammoMultiplier: 1
+    fragBullets: 50
+    shootEffect: casing2
+    fragBullet:{
+     type: BasicBulletType
+     speed: 200
+     damage: 1000
+     lifetime: 40000
+     homingPower: 10
+     width: 6
+     height: 6
+     frontColor: bcf0f7
+     backColor: 6c81a3
+     despawnEffect: unitDrop
+     hitEffect: blastExplosion
+    }
   }
 }
+inaccuracy: 0
 drawer: {
- type: DrawTurret
- basePrefix: turret-
- parts: [
-  {
-   type: RegionPart
-   mirror: true
-   suffix: -weapon
-   progress: recoil
-   moveY: -2.5
-   under: true
-  }
- ]
+  type: DrawTurret
+  baseSuffix: -base
+  parts: [
+    {
+      type: RegionPart
+      suffix: -weapon-l
+      mirror: false
+      alternate: true
+      under: true
+      progress: recoil
+      moveY: -30
+    }
+    {
+      type: RegionPart
+      suffix: -weapon-r
+      mirror: false
+      alternate: true
+      under: true
+      progress: recoil
+      moveY: -30
+    }
+  ]
 }
