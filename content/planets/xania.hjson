@@ -26,6 +26,30 @@ mesh: [
     octaves: 4.2
     persistence: 0.7
   }
+    {
+    //sand
+    type: NoiseMesh
+    planet: xania
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: b4eaed
+    color2: 72a3a6
+    octaves: 4.2
+    persistence: 0.7
+  }
+    {
+    //sand
+    type: NoiseMesh
+    planet: xania
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: bccecf
+    color2: 808591
+    octaves: 4.2
+    persistence: 0.7
+  }
 ]
 cloudMesh: [
  {
