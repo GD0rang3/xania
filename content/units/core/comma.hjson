@@ -1,23 +1,23 @@
 type: flying
 hovering: true
-rotateSpeed: 25
-groundLayer: 90
+rotateSpeed: 7
+groundLayer: 99
 name: Comma
 description: Defends the Frost core. Builds structures and mines ores.
 health: 135
-armor: 1
+armor: 4
 mineFloor: true
 mineWalls: true
-speed: 4
-hitSize: 6
+speed: 3.4
+hitSize: 5
 isEnemy: false
-mineSpeed: 6
+mineSpeed: 4
 mineTier: 2
 buildSpeed: 1
 drag: 0.5
 itemCapacity: 25
 alwaysUnlocked: true
-outlineColor: 040b1c
+outlineColor: 101012
 
       trailChance: -1
       trailEffect: dynamicSpikes
@@ -25,19 +25,21 @@ outlineColor: 040b1c
 engines:[
 {
 x: 0
-y: -10
-radius: 6
+y: -5
+radius: 5
 rotation: -90
 }
 ]
 weapons: [
   {
-        name: Comma Shot
-    x: 0
+        name: comma-gun
+    x: 3
     y: 0
-    reload: 40
-    mirror: false
-    rotate: false
+    shootY: 2
+    reload: 20
+    mirror: true
+    alternate: true
+    rotate: true
     ejectEffect: none
     shootSound: plasmaboom
     bullet: {
@@ -47,13 +49,13 @@ weapons: [
       lightColor: e4f4f7
       hitColor: 79d4e8
       buildingDamageMultiplier: 0.01
-      speed: 10
-      lifetime: 90
-      damage: 20
-      splashDamage: 20
+      speed: 5
+      lifetime: 25
+      damage: 12
+      splashDamage: 5
       splashDamageRadius: 30
-      width: 9
-      height: 20
+      width: 4
+      height: 12
       pierceBuilding: false
       pierce: false
       trailChance: 0.5
@@ -63,13 +65,13 @@ weapons: [
       smokeEffect: {
         type: ParticleEffect
           particles: 25
-          length: 100
-          lifetime: 36
+          length: 60
+          lifetime: 25
           interp: circleOut
           cone: 3
           colorFrom: c7f3ff
           colorTo: 184b59
-          sizeFrom: 4
+          sizeFrom: 2
           sizeTo: 0.6
         }
       buildingDamageMultiplier: 0.01
