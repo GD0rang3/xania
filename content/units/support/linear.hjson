@@ -1,0 +1,77 @@
+type: legs
+name: Linear
+description: Capable of building and automatically repairing damaged structures. Assists other units in construction. Equipped with artillery and heal cannons.
+speed: 0.55
+health: 790
+armor: 9
+flying: false
+isEnemy: false
+controller: RepairAI
+legExtension: -2.5
+buildSpeed: 1.1
+mineSpeed: 6.5
+mineTier: 2
+legMoveSpace: 0.9
+hovering: false
+legCount: 6
+legLength: 18
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [item-curium, item-oganesson]
+mineWalls: true
+mineFloor: true
+legSpeed: 0.23
+legForwardScl: 0.56
+itemCapacity: 80
+outlineColor: 101012
+hitSize: 15
+weapons: [
+  {
+    x: 5
+    y: 2
+    reload: 130
+    name: line-weapon
+    mirror: true
+    alternate: true
+    rotate: true
+    shootY: 1
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.5
+      lifetime: 120
+      trailColor: 69a25e
+      backColor: 69a25e
+      frontColor: 9be98b
+      damage: 3
+      width: 12
+      height: 17
+      collidesTeam: true
+      healPercent: 4
+      splashDamage: 2
+      splashDamageRadius: 16
+            fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragBullets: 5
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 12
+        damage: 4
+        pierce: false
+        buildingDamageMultiplier: 0.25
+        pierceBuilding: false
+        lightningColor: b4edc9
+        healPercent: 1
+      }
+    }
+  }
+]
+research: {
+  parent: point
+  objectives: [
+    reionization-chamber
+  ]
+}
+researchCostMultiplier: 0.75
