@@ -52,6 +52,6 @@ weapons: [
 research: {
   parent: dot
   objectives: [
-dot
+1ionic-bond-upgrader
   ]
 }
