@@ -19,15 +19,15 @@ item-glass-fiber/50
 ]
     }
 drawRim: true
-hardnessDrillMultiplier: 43
+hardnessDrillMultiplier: 55
 hasPower: false
-tier: 4
+tier: 5
 shake: 0.5
-itemCapacity: 15
+itemCapacity: 30
 researchCostMultiplier: 0.5
 requirements: [
-item-curium/25
-item-plutonium/15
-item-glass-fiber/20
+item-curium/95
+item-plutonium/150
+item-glass-fiber/50
 ]
 squareSprite: false
