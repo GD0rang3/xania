@@ -6,8 +6,8 @@ category: liquid
 squareSprite: false
 research: core-frost
 requirements: [
-  item-oganesson/18
-  item-plutonium/12
+  item-oganesson/45
+  item-plutonium/50
 ]
-pumpAmount: 0.12
+pumpAmount: 0.2
 researchCostMultiplier: 0.5
