@@ -17,6 +17,6 @@ shake: 0.5
 itemCapacity: 10
 researchCostMultiplier: 0.5
 requirements: [
-item-curium/20
+item-curium/30
 ]
 squareSprite: false
