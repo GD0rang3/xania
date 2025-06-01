@@ -1,7 +1,7 @@
 type: Pump
 name: Pressurized Pump
 description: Slowly pumps liquid from liquid tiles.
-size: 1
+size: 2
 category: liquid
 squareSprite: false
 research: core-frost
