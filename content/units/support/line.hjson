@@ -28,7 +28,7 @@ weapons: [
   {
     x: 5
     y: 2
-    reload: 130
+    reload: 50
     name: line-weapon
     mirror: true
     alternate: true
@@ -42,11 +42,11 @@ weapons: [
       trailColor: 69a25e
       backColor: 69a25e
       frontColor: 9be98b
-      damage: 3
+      damage: 20
       width: 12
       height: 17
       collidesTeam: true
-      healPercent: 4
+      healPercent: 8
       splashDamage: 2
       splashDamageRadius: 16
             fragLifeMin: 1
@@ -58,7 +58,7 @@ weapons: [
       fragBullet: {
         type: LightningBulletType
         lightningLength: 12
-        damage: 4
+        damage: 12
         pierce: false
         buildingDamageMultiplier: 0.25
         pierceBuilding: false
@@ -71,7 +71,7 @@ weapons: [
 research: {
   parent: point
   objectives: [
-    1-3reionization-chamber
+    3reionization-chamber
   ]
 }
 researchCostMultiplier: 0.75
