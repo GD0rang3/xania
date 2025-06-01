@@ -2,7 +2,9 @@ type: CoreBlock
 name: Core: Frost
 description: Core of the base. Armored and stores a medium amount of items.
 requirements: [
-  copper/1
+  item-curium/1500
+  item-oganesson/1000
+  item-plutonium/1000
 ]
 isFirstTier: true
 size: 3
@@ -10,7 +12,7 @@ squareSprite: false
 alwaysUnlocked: true
 unitType: comma
 health: 1450
-itemCapacity: 4500
+itemCapacity: 2000
 unitCapModifier: 8
 category: effect
 research: {
