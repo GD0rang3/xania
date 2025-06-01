@@ -2,7 +2,6 @@ type: Duct
 name: Pressure Duct
 description: "Transports items using bursts of pressure."
 category: distribution
-alwaysUnlocked: true
 research: core-frost
 researchCost: [
   item-curium/10
