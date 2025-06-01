@@ -1,9 +1,9 @@
 name: xania
 displayName: Xania
-subtitle: "greatest mod ever, hehe"
+subtitle: "Beta release out now!"
 description: "[yellow]Welcome to[cyan] Xania, [white]a white, cold and depressing planet far away from the sun.
-Many times this planet was attempted to conquer but [gray]the creatures on there are on a different level...
-[white]Will [red]you [white]be able to conquer the freezing cold?"
-  author: "Ion, Q8er2y, GamerMertcan, YAYUWA+"
+This planet had many attempts trying to be conquered but [gray]the creatures on there are on a different level...
+[white]Will [red]you [white]be able to beat the freezing cold?"
+  author: "Ion, Q8er2y, GamerMertcan, YAYUWA"
   minGameVersion: 146
-  version : "v0.87"
+  version : "Beta v1.0"
