@@ -50,8 +50,8 @@ weapons: [
   }
 ]
 research: {
-  parent: 1-0curium-unit-assembly
+  parent: 0curium-unit-assembly
   objectives: [
-1-0curium-unit-assembly
+0curium-unit-assembly
   ]
 }
