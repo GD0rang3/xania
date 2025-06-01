@@ -2,7 +2,3 @@ type: liquid
 name: Frosted Water
 description: cold water haha
 color: 16D3FE
-viscosity: 0.01
-flmmability: 0
-explosivenss: 0
-temperature: 0.15
