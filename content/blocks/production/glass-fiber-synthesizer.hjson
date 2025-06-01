@@ -13,9 +13,9 @@ health: 160
 size: 3
 itemCapacity: 20
 requirements: [
-   item-curium/35
-  item-plutonium/20
-  item-oganesson/15
+   item-curium/75
+  item-plutonium/60
+  item-oganesson/80
 ]
 outputItem: item-glass-fiber/3
 craftTime: 25
