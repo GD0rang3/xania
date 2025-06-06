@@ -71,6 +71,47 @@ ammoTypes: {
      hitEffect: blastExplosion
     }
   }
+  item-oganesson: {
+    reloadMultiplier: 1
+    hitEffect: plasticExplosion
+    despawnEffect: unitDrop
+    type: BasicBulletType
+    speed: 6
+    lifetime: 20
+    damage: 17
+    pierce: true
+    pierceCap: 4
+    keepVelocity: false
+    width: 10
+    height: 20
+    trailChance: -1
+    trailColor: 345443
+    backColor: 345443
+    frontColor: 69e0a1
+    trailWidth: 2.5
+    trailLength: 40
+    lightRadius: 75
+    lightOpacity: 0.7
+    lightColor: c1f7da
+    spin: 10
+    layer: 99
+    ammoMultiplier: 2
+    fragBullets: 5
+    fragBullet:{
+     type: BasicBulletType
+     speed: 1
+     damage: 1
+     lifetime: 25
+     homingPower: 5
+     width: 5
+     height: 8
+     frontColor: 69e0a1
+     backColor: 345443
+     despawnEffect: unitDrop
+     hitEffect: blastExplosion
+    }
+  }
+  
 }
 outlineColor: 101012
 inaccuracy: 1
