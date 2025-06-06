@@ -5,16 +5,16 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 101012
-speed: 1.2
+speed: 0.8
 research: {
 parent: natra
 requirements: [
  item-curium/250
 ]
 } 
-rotateSpeed: 6
+rotateSpeed: 4
 health: 750
-armor: 2
+armor: 3
 itemCapacity: 0
 hitSize: 13
 treadRects: [
@@ -30,7 +30,7 @@ weapons: [
     x: 0
     y: 1
     name: eltran-top
-    reload: 30
+    reload: 80
     rotate: true
     mirror: false
     shootSound: pulseBlast
@@ -48,7 +48,7 @@ weapons: [
       fragBullet: {
         type: LightningBulletType
         lightningLength: 12
-        damage: 5
+        damage: 2
         pierce: false
         buildingDamageMultiplier: 0.25
         pierceBuilding: false
@@ -64,7 +64,7 @@ weapons: [
       sideWidth: 3
       pierce: true
       pierceCap: 2
-      damage: 8
+      damage: 6
       despawnSound: missileLarge
       hitSound: missileLarge
     }
