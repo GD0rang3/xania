@@ -47,7 +47,7 @@ ammoTypes: {
     trailChance: -1
     trailColor: 597f94
     backColor: 597f94
-    frontColor: d7fafc
+    frontColor: c1f7da
     trailWidth: 2.5
     trailLength: 40
     lightRadius: 75
@@ -65,7 +65,7 @@ ammoTypes: {
      homingPower: 1
      width: 8
      height: 8
-     frontColor: bcf0f7
+     frontColor: c1f7da
      backColor: 6c81a3
      despawnEffect: unitDrop
      hitEffect: blastExplosion
@@ -130,7 +130,7 @@ drawer: {
       ops:[
        {
       op: curve
-      interp: swingOut
+      interp: circleOut
       }
       ]
       }
