@@ -1,0 +1,36 @@
+type: ForceProjector
+name: Barricade Projector
+description: When supplied with power, creates a shield to protect allied structures and units from damage. May optionally be boosted using Mendelevium.
+size: 4
+squareSprite: false
+shieldHealth: 3000
+cooldownNormal: 1.75
+cooldownLiquid: 1.5
+cooldownBrokenBase: 0.35
+coolantConsumption: 0.2
+category: effect
+research: core-frost
+requirements: [
+item-curium/230
+item-oganesson/140
+item-osmium/100
+item-plutonium/300
+item-mendelevium/80
+]
+consumes: {
+  power: 4
+  items: {
+    items: [
+      item-mendelevium/0.2
+    ]
+    optional: true
+    booster: true
+  }
+}
+radius: 120
+researchCostMultiplier: 0.5
+phaseRadiusBoost: 60
+phaseShieldBoost: 700
+phaseUseTime: 180
+sides: 8
+shieldRotation: 0
