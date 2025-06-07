@@ -19,9 +19,9 @@ drawer: {
 outlineColor: 101012
 shootType: {
   type: ContinuousLaserBulletType
-  length: 176
-  damage: 20
-  width: 4
+  length: 230
+  damage: 60
+  width: 13
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
@@ -60,7 +60,7 @@ shootType: {
       hitSound: spark
       fragBullet: {
         type: LightningBulletType
-        damage: 9
+        damage: 25
         lightningLength: 22
         lightningLengthRand: 3
         lightningColor: 6b6763
@@ -68,14 +68,14 @@ shootType: {
     }
   }
 }
-range: 176
+range: 230
 shootSound: none
-loopSound: laserbeam
+loopSound: beam
 shootWarmupSpeed: 0.1
 shootCone: 360
 aimChangeSpeed: 0.9
 rotateSpeed: 1.8
 shootY: 3.5
 consumes: {
-  power: 6
+  power: 15
 }
