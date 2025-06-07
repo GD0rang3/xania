@@ -2,6 +2,8 @@ type: ContinuousTurret
 name: Obliteration
 description: Fires a continuous rupturing beam of pure energy at enemies. 
 size: 4
+health: 3500
+armor: 15
 category: turret
 researchCostMultiplier: 0.5
 research: trebuchet
