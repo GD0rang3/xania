@@ -1,0 +1,41 @@
+type: LiquidTurret
+name: Moisten
+description: Fires liquids at enemies and pushes them back. Capable of extinguishing fires.
+size: 3
+reload: 4
+inaccuracy: 6
+hasLiquids: true
+liquidCapacity: 20
+researchCostMultiplier: 0.5
+outlineColor: 101012
+recoil: 0
+category: turret
+research: {
+   parent: icicle-regioned
+}
+range: 120
+requirements: [
+  item-curium/85
+  item-osmium/50
+  item-glass-fiber/40
+]
+ammoTypes: {
+  liquid-frosted-water: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: liquid-frosted-water
+    speed: 1.5
+    lifetime: 80
+    knockback: 0.7
+    status: wet
+    statusDuration: 120
+    damage: 0
+    layer: 98
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+squareSprite: false
