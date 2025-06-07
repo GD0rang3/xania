@@ -78,7 +78,8 @@ ammoTypes: {
     type: BasicBulletType
     speed: 6
     lifetime: 20
-    damage: 3
+    damage: 4
+    homingPower: 3
     pierce: true
     pierceCap: 4
     keepVelocity: false
@@ -100,7 +101,7 @@ ammoTypes: {
     fragBullet:{
      type: BasicBulletType
      speed: 1
-     damage: 1
+     damage: 2
      lifetime: 25
      homingPower: 5
      width: 5
