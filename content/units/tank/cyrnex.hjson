@@ -32,13 +32,16 @@ weapons: [
     x: 10
     y: 1
     name: cyrnex-top
-    reload: 80
     rotate: true
     alternate: false
     continuous: true
     alwaysContinuous: true
     rotateSpeed: 2
     mirror: true
+    shoot:{
+    firstShotDelay:80
+    }
+    chargeSound: lasercharge2
     shootSound: pulseBlast
     loopSound: beam
     bullet: {
