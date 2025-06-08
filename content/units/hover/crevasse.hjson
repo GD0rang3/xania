@@ -1,7 +1,7 @@
 type: flying
 name: Crevasse
 description: Death and destruction.
-shadowElevation: 0.3
+shadowElevation: 0.5
 drag: 0.08
 research: {
 parent: chasm
@@ -14,11 +14,11 @@ item-plutonium/23000
 } 
 outlineColor: 101012
 speed: 1
-rotateSpeed: 3.5
+rotateSpeed: 1.8
 accel: 0.1
 groundLayer: 90
 health: 16000
-armor: 5
+armor: 15
 hitSize: 32
 canDrown: false
 researchCostMultiplier: 1.5
@@ -27,6 +27,7 @@ engines: [
     x: 0
     y: -20
     radius: 12
+    rotation: -90
   }
 ]
 itemCapacity: 0
@@ -41,6 +42,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
+    rotateSpeed: 2
     shootSound: laserblast
     recoil: 8
       bullet:{
@@ -67,6 +69,7 @@ weapons: [
     alternate: true
     reload: 25
     rotate: true
+    rotateSpeed: 3
     shootSound: dullExplosion
     inaccuracy: 12
     shoot: {
@@ -106,14 +109,15 @@ weapons: [
     alternate: true
     reload: 15
     rotate: true
+    rotateSpeed:2
     shootSound: mediumCannon
     inaccuracy: 6
     bullet: {
       type: ArtilleryBulletType
       speed: 4
       lifetime: 120
-      damage: 30
-      splashDamage: 20
+      damage: 15
+      splashDamage: 10
       splashDamageRadius: 100
       width: 25
       height: 25
@@ -125,22 +129,22 @@ weapons: [
       fragBullets: 20
       fragBullet:{
       type: BasicBulletType
-      width: 10
+      width: 6
       speed: 4
       lifetime: 35
-      height: 30
+      height: 10
      damage: 5
-      splashDamage: 50
+      splashDamage: 5
       splashDamageRadius: 20
       fragBullets: 1
       fragBullet:{
         type: BasicBulletType
-        width: 50
+        width: 6
         height: 10
         speed: 1
         lifetime: 40
         pierce: true
-        pierceCap: 5
+        pierceCap: 100
         damage: 20
         spin: 20
        }
