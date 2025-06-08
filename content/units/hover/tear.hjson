@@ -13,7 +13,7 @@ speed: 1.1
 rotateSpeed: 5
 accel: 0.09
 groundLayer: 60
-health: 660
+health: 1000
 armor: 3
 hitSize: 9
 canDrown: false
@@ -45,7 +45,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 5.2
-    y: -5.5
+    y: -6.5
     interval: 7
     minVelocity: 0.6
   }
@@ -53,19 +53,19 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -6
+    y: -7
     radius: 2.5
     rotation: -90
   }
   {
     x: -6
-    y: -3
+    y: -4
     radius: 1.4
     rotation: -90
   }
   {
     x: 6
-    y: -3
+    y: -4
     radius: 1.4
     rotation: -90
   }
@@ -79,7 +79,7 @@ weapons: [
     y: 3
     mirror: true
     alternate: true
-    reload: 100
+    reload: 70
     rotate: false
     shootSound: missile
   shoot:{
