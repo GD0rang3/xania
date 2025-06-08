@@ -51,5 +51,6 @@ weapons: [
   colors: [bde9f0, aeebf5, 7480a3, cff2fa, f5f0ec]
   shake: 0.3
   }
+}
 ]
 researchCostMultiplier: 1.5
