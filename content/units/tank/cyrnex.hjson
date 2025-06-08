@@ -34,6 +34,8 @@ weapons: [
     name: cyrnex-top
     reload: 80
     rotate: true
+    alternate: false
+    continuous: true
     rotateSpeed: 2
     mirror: true
     shootSound: pulseBlast
