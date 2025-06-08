@@ -1,0 +1,20 @@
+type: LiquidJunction
+category: liquid
+speed: 3
+name: Pressured Junction
+health: 50
+liquidCapacity: 20
+size: 1
+description:
+research: {
+parent: pressured-pipe
+requirements: [
+  item-oganesson/50
+  item-plutonium/50
+]
+}
+requirements: [
+  item-oganesson/3
+  item-plutonium/3
+]
+researchCostMultiplier: 0.5

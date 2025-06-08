@@ -1,0 +1,18 @@
+type: liquidTank
+category: liquid
+name: Pressured Tank
+health: 500
+liquidCapacity: 2000
+size: 3
+description: A tank designed to hold liquids under pressure, suitable for storing volatile substances.
+research: {
+parent: pressured-junction
+requirements: [
+  item-oganesson/2000
+  item-plutonium/1500
+]
+}
+requirements: [
+  item-oganesson/400
+  item-plutonium/500
+]
