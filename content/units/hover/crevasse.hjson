@@ -140,13 +140,13 @@ weapons: [
       fragBullet:{
         type: BasicBulletType
         width: 6
-        height: 10
+        height: 40
         speed: 1
         lifetime: 40
         pierce: true
         pierceCap: 100
         damage: 20
-        spin: 20
+        spin: 40
        }
      }
     }
