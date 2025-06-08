@@ -36,6 +36,7 @@ weapons: [
     rotate: true
     alternate: false
     continuous: true
+    alwaysContinuous: true
     rotateSpeed: 2
     mirror: true
     shootSound: pulseBlast
