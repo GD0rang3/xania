@@ -21,7 +21,7 @@ speed: 1
 rotateSpeed: 3
 accel: 2
 groundLayer: 70
-health: 1500
+health: 3500
 armor: 3
 hitSize: 12
 canDrown: false
@@ -58,18 +58,21 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -8
+    y: -9
     radius: 3
+    rotation:-90
   }
   {
     x: -8
-    y: -9
+    y: -10
     radius: 1.5
+    rotation:-90
   }
 {
     x: 8
-    y: -9
+    y: -10
     radius: 1.5
+    rotation:-90
   }
 ]
 itemCapacity: 0
@@ -116,7 +119,7 @@ weapons: [
       type: MissileBulletType
       speed: 4
       lifetime: 55
-      damage: 10
+      damage: 13
       width: 5
       height: 12
       trailWidth: 3
