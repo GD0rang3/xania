@@ -1,0 +1,55 @@
+type: tank
+name: Cyrnex
+description: Fires a continuous beam that melts enemies.
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 101012
+speed: 0.6
+research: {
+parent: eltran
+requirements: [
+ item-curium/1200
+ item-oganesson/800
+ item-plutonium/500
+]
+} 
+rotateSpeed: 3
+health: 1500
+armor: 10
+itemCapacity: 0
+hitSize: 17
+treadRects: [
+  {
+    x: 8
+    y: -26
+    width: 18
+    height: 50
+  }
+]
+weapons: [
+  {
+    x: 10
+    y: 1
+    name: cyrnex-top
+    reload: 80
+    rotate: true
+    rotateSpeed: 2
+    mirror: true
+    shootSound: pulseBlast
+    loopSound: beam
+    bullet: {
+      type: ContinuousLaserBulletType
+  length: 120
+  damage: 5
+  width: 5
+  incendChance: 0.3
+  incendAmount: 0.2
+  incendSpread: 0.2
+  status: melting
+  statusDuration: 120
+  colors: [bde9f0, aeebf5, 7480a3, cff2fa, f5f0ec]
+  shake: 0.3
+  }
+]
+researchCostMultiplier: 1.5
