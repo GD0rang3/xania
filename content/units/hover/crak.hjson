@@ -31,7 +31,7 @@ abilities: [
     teamColor: true
     effect: missileTrailShort
     x: 0
-    y: -6.6
+    y: -7.6
     interval: 4
     minVelocity: 0.6
   }
@@ -39,8 +39,9 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -6.6
+    y: -7.6
     radius: 1.5
+    rotation:-90
   }
 ]
 itemCapacity: 0
@@ -52,7 +53,7 @@ weapons: [
     y: 1
     mirror: true
     alternate: true
-    reload: 48
+    reload: 30
     rotate: false
     shootSound: missile
     shoot: {
@@ -63,7 +64,7 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 55
-      damage: 9
+      damage: 12
       width: 3
       height: 6
       trailWidth: 1
