@@ -1,0 +1,21 @@
+type: BridgeConduit
+category: liquid
+name: Pressurized Bridge
+health: 50
+liquidCapacity: 20
+size: 1
+range: 4
+speed: 3
+description: A bridge that allows liquids to flow across obstacles while maintaining pressure.
+research: {
+parent: pressurized-junction
+requirements: [
+  item-oganesson/40
+  item-plutonium/40
+]
+}
+requirements: [
+  item-oganesson/3
+  item-plutonium/3
+]
+researchCostMultiplier: 0.5

@@ -1,0 +1,20 @@
+type: LiquidRouter
+category: liquid
+speed: 3
+name: Pressured Router
+health: 50
+liquidCapacity: 20
+size: 1
+description: Distributes liquid inputs up to three directions using pressure.
+research: {
+parent: pressured-pipe
+requirements: [
+  item-oganesson/50
+  item-plutonium/50
+]
+}
+requirements: [
+  item-oganesson/3
+  item-plutonium/3
+]
+researchCostMultiplier: 0.5
