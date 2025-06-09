@@ -2,8 +2,8 @@ research: core-frost
 type: RegenProjector
 name: Restoration Chamber
 description: Slowly repairs nearby allied blocks. Requires power. May be optionally boosted with Glass Fiber. 
-size: 1
-range: 6
+size: 2
+range: 10
 baseColor: baf5f5
 squareSprite: false
 effect: {
