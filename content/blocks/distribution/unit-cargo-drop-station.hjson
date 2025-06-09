@@ -1,0 +1,19 @@
+type: UnitCargoUnloadPoint
+name: Unit Cargo Drop Station
+description: Accepts items dropped by a cargo drone.
+itemCapacity: 100
+size: 2
+category: distribution
+research: unit-cargo-load-zone
+requirements: [
+  item-curium/50
+  item-osmium/120
+  item-glass-fiber/40
+  item-plutonium/100
+]
+researchCost: [
+  item-curium/500
+  item-osmium/1200
+  item-glass-fiber/400
+  item-plutonium/1000
+]
