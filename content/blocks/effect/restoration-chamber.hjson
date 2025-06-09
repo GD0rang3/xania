@@ -33,7 +33,7 @@ consumes: {
 }
 optionalUseTime: 180
 optionalMultiplier: 2
-healPercent: 1
+healPercent: 0.07
 requirements: [
   item-curium/150
   item-oganesson/300
