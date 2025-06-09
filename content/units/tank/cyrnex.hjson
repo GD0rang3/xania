@@ -33,10 +33,11 @@ weapons: [
     y: 1
     name: cyrnex-top
     rotate: true
+    reload:100
     alternate: false
     continuous: true
     alwaysContinuous: true
-    rotateSpeed: 2
+    rotateSpeed: 1.6
     mirror: true
     shoot:{
     firstShotDelay:80
@@ -46,8 +47,8 @@ weapons: [
     loopSound: beam
     bullet: {
       type: ContinuousLaserBulletType
-  length: 120
-  damage: 5
+  length: 80
+  damage: 3
   width: 5
   incendChance: 0.3
   incendAmount: 0.2
