@@ -1,6 +1,6 @@
 type: UnitCargoUnloadPoint
 name: Unit Cargo Drop Station
-description: Accepts items dropped by a cargo drone.
+description: Accepts items dropped by a Quarn cargo drone.
 itemCapacity: 100
 size: 2
 category: distribution
