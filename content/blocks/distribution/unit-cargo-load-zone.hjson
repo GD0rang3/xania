@@ -1,0 +1,27 @@
+type: UnitCargoLoader
+name: Unit Cargo Load Zone
+description: Loads a cargo drone with items to be sent off towards a Cargo Drop Station.
+size: 3
+unitType: quad
+buildTime: 600
+consumes: {
+  power: 3
+  liquid: liquid-frosted-water/0.5
+}
+polyColor: 99c7e0
+polyRadius: 8
+itemCapacity: 200
+category: distribution
+requirements: [
+  item-curium/80
+  item-osmium/120
+  item-glass-fiber/200
+  item-plutonium/50
+]
+research: pressure-duct
+researchCost: [
+  item-curium/300
+  item-osmium/700
+  item-glass-fiber/1000
+  item-plutonium/200
+]
