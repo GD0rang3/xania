@@ -10,7 +10,7 @@ effect: {
   type: ParticleEffect
   colorFrom: baf5f5
   colorTo: 6de3e3
-  particles: 3
+  particles: 8
   line: true
   length: 3
   baseLength: 2
@@ -33,7 +33,7 @@ consumes: {
 }
 optionalUseTime: 180
 optionalMultiplier: 2
-healPercent: 0.02
+healPercent: 1
 requirements: [
   item-curium/150
   item-oganesson/300
